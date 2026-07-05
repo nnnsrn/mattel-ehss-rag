@@ -1,0 +1,20 @@
+# Vector database — di-mount sebagai Railway persistent volume
+chroma_db/
+
+# Raw intermediate files — tidak dibutuhkan di production
+ehss_docs_raw/
+
+# API keys — set sebagai Railway environment variable
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Git
+.git/
+.gitignore
+
+# Development files
+*.md
