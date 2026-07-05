@@ -1,0 +1,16 @@
+# API keys — never commit
+.env
+
+# Vector database — binary, rebuild locally with build_knowledge_base.py
+chroma_db/
+
+# Raw intermediate files — regenerate with ehss_pipeline.py
+ehss_docs_raw/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# HuggingFace cache
+.cache/

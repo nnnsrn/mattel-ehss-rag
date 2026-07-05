@@ -1,0 +1,1817 @@
+§ 1910.132 General requirements.
+
+(a) Application. Protective equipment, including personal protective equipment for eyes, face, head, and extremities, protective clothing, respiratory devices, and protective shields and barriers, shall be provided, used, and maintained in a sanitary and reliable condition wherever it is necessary by reason of hazards of processes or environment, chemical hazards, radiological hazards, or mechanical irritants encountered in a manner capable of causing injury or impairment in the function of any part of the body through absorption, inhalation or physical contact.
+
+(b) Employee-owned equipment. Where employees provide their own protective equipment, the employer shall be responsible to assure its adequacy, including proper maintenance, and sanitation of such equipment.
+
+(c) Design. All personal protective equipment shall be of safe design and construction for the work to be performed.
+
+(d) Hazard assessment and equipment selection. (1) The employer shall assess the workplace to determine if hazards are present, or are likely to be present, which necessitate the use of personal protective equipment (PPE). If such hazards are present, or likely to be present, the employer shall:
+
+(i) Select, and have each affected employee use, the types of PPE that will protect the affected employee from the hazards identified in the hazard assessment;
+
+(ii) Communicate selection decisions to each affected employee; and,
+
+(iii) Select PPE that properly fits each affected employee.
+
+Non-mandatory appendix B contains an example of procedures that would comply with the requirement for a hazard assessment.
+
+(2) The employer shall verify that the required workplace hazard assessment has been performed through a written certification that identifies the workplace evaluated; the person certifying that the evaluation has been performed; the date(s) of the hazard assessment; and, which identifies the document as a certification of hazard assessment.
+
+(e) Defective and damaged equipment. Defective or damaged personal protective equipment shall not be used.
+
+(f) Training. (1) The employer shall provide training to each employee who is required by this section to use PPE. Each such employee shall be trained to know at least the following:
+
+(i) When PPE is necessary;
+
+(ii) What PPE is necessary;
+
+(iii) How to properly don, doff, adjust, and wear PPE;
+
+(iv) The limitations of the PPE; and,
+
+(v) The proper care, maintenance, useful life and disposal of the PPE.
+
+(2) Each affected employee shall demonstrate an understanding of the training specified in paragraph (f)(1) of this section, and the ability to use PPE properly, before being allowed to perform work requiring the use of PPE.
+
+(3) When the employer has reason to believe that any affected employee who has already been trained does not have the understanding and skill required by paragraph (f)(2) of this section, the employer shall retrain each such employee. Circumstances where retraining is required include, but are not limited to, situations where:
+
+(i) Changes in the workplace render previous training obsolete; or
+
+(ii) Changes in the types of PPE to be used render previous training obsolete; or
+
+(iii) Inadequacies in an affected employee's knowledge or use of assigned PPE indicate that the employee has not retained the requisite understanding or skill.
+
+(g) Paragraphs (d) and (f) of this section apply only to §§ 1910.133, 1910.135, 1910.136, 1910.138, and 1910.140. Paragraphs (d) and (f) of this section do not apply to §§ 1910.134 and 1910.137.
+
+(h) Payment for protective equipment. (1) Except as provided by paragraphs (h)(2) through (h)(6) of this section, the protective equipment, including personal protective equipment (PPE), used to comply with this part, shall be provided by the employer at no cost to employees.
+
+(2) The employer is not required to pay for non-specialty safety-toe protective footwear (including steel-toe shoes or steel-toe boots) and non-specialty prescription safety eyewear, provided that the employer permits such items to be worn off the job-site.
+
+(3) When the employer provides metatarsal guards and allows the employee, at his or her request, to use shoes or boots with built-in metatarsal protection, the employer is not required to reimburse the employee for the shoes or boots.
+
+(4) The employer is not required to pay for:
+
+(i) The logging boots required by 29 CFR 1910.266(d)(1)(v);
+
+(ii) Everyday clothing, such as long-sleeve shirts, long pants, street shoes, and normal work boots; or
+
+(iii) Ordinary clothing, skin creams, or other items, used solely for protection from weather, such as winter coats, jackets, gloves, parkas, rubber boots, hats, raincoats, ordinary sunglasses, and sunscreen.
+
+(5) The employer must pay for replacement PPE, except when the employee has lost or intentionally damaged the PPE.
+
+(6) Where an employee provides adequate protective equipment he or she owns pursuant to paragraph (b) of this section, the employer may allow the employee to use it and is not required to reimburse the employee for that equipment. The employer shall not require an employee to provide or pay for his or her own PPE, unless the PPE is excepted by paragraphs (h)(2) through (h)(5) of this section.
+
+(7) This paragraph (h) shall become effective on February 13, 2008. Employers must implement the PPE payment requirements no later than May 15, 2008.
+
+When the provisions of another OSHA standard specify whether or not the employer must pay for specific equipment, the payment provisions of that standard shall prevail.
+
+---
+
+§ 1910.133 Eye and face protection.
+
+(a) General requirements. (1) The employer shall ensure that each affected employee uses appropriate eye or face protection when exposed to eye or face hazards from flying particles, molten metal, liquid chemicals, acids or caustic liquids, chemical gases or vapors, or potentially injurious light radiation.
+
+(2) The employer shall ensure that each affected employee uses eye protection that provides side protection when there is a hazard from flying objects. Detachable side protectors (e.g. clip-on or slide-on side shields) meeting the pertinent requirements of this section are acceptable.
+
+(3) The employer shall ensure that each affected employee who wears prescription lenses while engaged in operations that involve eye hazards wears eye protection that incorporates the prescription in its design, or wears eye protection that can be worn over the prescription lenses without disturbing the proper position of the prescription lenses or the protective lenses.
+
+(4) Eye and face PPE shall be distinctly marked to facilitate identification of the manufacturer.
+
+(5) The employer shall ensure that each affected employee uses equipment with filter lenses that have a shade number appropriate for the work being performed for protection from injurious light radiation. The following is a listing of appropriate shade numbers for various operations.
+
+(b) Criteria for protective eye and face protection. (1) Protective eye and face protection devices must comply with any of the following consensus standards:
+
+(i) ANSI/ISEA Z87.1-2010, Occupational and Educational Personal Eye and Face Protection Devices, incorporated by reference in § 1910.6;
+
+(ii) ANSI Z87.1-2003, Occupational and Educational Personal Eye and Face Protection Devices, incorporated by reference in § 1910.6; or
+
+(iii) ANSI Z87.1-1989 (R-1998), Practice for Occupational and Educational Eye and Face Protection, incorporated by reference in § 1910.6;
+
+(2) Protective eye and face protection devices that the employer demonstrates are at least as effective as protective eye and face protection devices that are constructed in accordance with one of the above consensus standards will be deemed to be in compliance with the requirements of this section.
+
+---
+
+§ 1910.134 Respiratory protection.
+
+This section applies to General Industry (part 1910), Shipyards (part 1915), Marine Terminals (part 1917), Longshoring (part 1918), and Construction (part 1926).
+
+(a) Permissible practice. (1) In the control of those occupational diseases caused by breathing air contaminated with harmful dusts, fogs, fumes, mists, gases, smokes, sprays, or vapors, the primary objective shall be to prevent atmospheric contamination. This shall be accomplished as far as feasible by accepted engineering control measures (for example, enclosure or confinement of the operation, general and local ventilation, and substitution of less toxic materials). When effective engineering controls are not feasible, or while they are being instituted, appropriate respirators shall be used pursuant to this section.
+
+(2) A respirator shall be provided to each employee when such equipment is necessary to protect the health of such employee. The employer shall provide the respirators which are applicable and suitable for the purpose intended. The employer shall be responsible for the establishment and maintenance of a respiratory protection program, which shall include the requirements outlined in paragraph (c) of this section. The program shall cover each employee required by this section to use a respirator.
+
+(b) Definitions. The following definitions are important terms used in the respiratory protection standard in this section.
+
+Air-purifying respirator means a respirator with an air-purifying filter, cartridge, or canister that removes specific air contaminants by passing ambient air through the air-purifying element.
+
+Assigned protection factor (APF) means the workplace level of respiratory protection that a respirator or class of respirators is expected to provide to employees when the employer implements a continuing, effective respiratory protection program as specified by this section.
+
+Atmosphere-supplying respirator means a respirator that supplies the respirator user with breathing air from a source independent of the ambient atmosphere, and includes supplied-air respirators (SARs) and self-contained breathing apparatus (SCBA) units.
+
+Canister or cartridge means a container with a filter, sorbent, or catalyst, or combination of these items, which removes specific contaminants from the air passed through the container.
+
+Demand respirator means an atmosphere-supplying respirator that admits breathing air to the facepiece only when a negative pressure is created inside the facepiece by inhalation.
+
+Emergency situation means any occurrence such as, but not limited to, equipment failure, rupture of containers, or failure of control equipment that may or does result in an uncontrolled significant release of an airborne contaminant.
+
+Employee exposure means exposure to a concentration of an airborne contaminant that would occur if the employee were not using respiratory protection.
+
+End-of-service-life indicator (ESLI) means a system that warns the respirator user of the approach of the end of adequate respiratory protection, for example, that the sorbent is approaching saturation or is no longer effective.
+
+Escape-only respirator means a respirator intended to be used only for emergency exit.
+
+Filter or air purifying element means a component used in respirators to remove solid or liquid aerosols from the inspired air.
+
+Filtering facepiece (dust mask) means a negative pressure particulate respirator with a filter as an integral part of the facepiece or with the entire facepiece composed of the filtering medium.
+
+Fit factor means a quantitative estimate of the fit of a particular respirator to a specific individual, and typically estimates the ratio of the concentration of a substance in ambient air to its concentration inside the respirator when worn.
+
+Fit test means the use of a protocol to qualitatively or quantitatively evaluate the fit of a respirator on an individual. (See also Qualitative fit test QLFT and Quantitative fit test QNFT.)
+
+Helmet means a rigid respiratory inlet covering that also provides head protection against impact and penetration.
+
+High efficiency particulate air (HEPA) filter means a filter that is at least 99.97% efficient in removing monodisperse particles of 0.3 micrometers in diameter. The equivalent NIOSH 42 CFR 84 particulate filters are the N100, R100, and P100 filters.
+
+Hood means a respiratory inlet covering that completely covers the head and neck and may also cover portions of the shoulders and torso.
+
+Immediately dangerous to life or health (IDLH) means an atmosphere that poses an immediate threat to life, would cause irreversible adverse health effects, or would impair an individual's ability to escape from a dangerous atmosphere.
+
+Interior structural firefighting means the physical activity of fire suppression, rescue or both, inside of buildings or enclosed structures which are involved in a fire situation beyond the incipient stage. (See 29 CFR 1910.155)
+
+Loose-fitting facepiece means a respiratory inlet covering that is designed to form a partial seal with the face.
+
+Maximum use concentration (MUC) means the maximum atmospheric concentration of a hazardous substance from which an employee can be expected to be protected when wearing a respirator, and is determined by the assigned protection factor of the respirator or class of respirators and the exposure limit of the hazardous substance. The MUC can be determined mathematically by multiplying the assigned protection factor specified for a respirator by the required OSHA permissible exposure limit, short-term exposure limit, or ceiling limit. When no OSHA exposure limit is available for a hazardous substance, an employer must determine an MUC on the basis of relevant available information and informed professional judgment.
+
+Negative pressure respirator (tight fitting) means a respirator in which the air pressure inside the facepiece is negative during inhalation with respect to the ambient air pressure outside the respirator.
+
+Oxygen deficient atmosphere means an atmosphere with an oxygen content below 19.5% by volume.
+
+Physician or other licensed health care professional (PLHCP) means an individual whose legally permitted scope of practice (i.e., license, registration, or certification) allows him or her to independently provide, or be delegated the responsibility to provide, some or all of the health care services required by paragraph (e) of this section.
+
+Positive pressure respirator means a respirator in which the pressure inside the respiratory inlet covering exceeds the ambient air pressure outside the respirator.
+
+Powered air-purifying respirator (PAPR) means an air-purifying respirator that uses a blower to force the ambient air through air-purifying elements to the inlet covering.
+
+Pressure demand respirator means a positive pressure atmosphere-supplying respirator that admits breathing air to the facepiece when the positive pressure is reduced inside the facepiece by inhalation.
+
+Qualitative fit test (QLFT) means a pass/fail fit test to assess the adequacy of respirator fit that relies on the individual's response to the test agent.
+
+Quantitative fit test (QNFT) means an assessment of the adequacy of respirator fit by numerically measuring the amount of leakage into the respirator.
+
+Respiratory inlet covering means that portion of a respirator that forms the protective barrier between the user's respiratory tract and an air-purifying device or breathing air source, or both. It may be a facepiece, helmet, hood, suit, or a mouthpiece respirator with nose clamp.
+
+Self-contained breathing apparatus (SCBA) means an atmosphere-supplying respirator for which the breathing air source is designed to be carried by the user.
+
+Service life means the period of time that a respirator, filter or sorbent, or other respiratory equipment provides adequate protection to the wearer.
+
+Supplied-air respirator (SAR) or airline respirator means an atmosphere-supplying respirator for which the source of breathing air is not designed to be carried by the user.
+
+This section means this respiratory protection standard.
+
+Tight-fitting facepiece means a respiratory inlet covering that forms a complete seal with the face.
+
+User seal check means an action conducted by the respirator user to determine if the respirator is properly seated to the face.
+
+(c) Respiratory protection program. This paragraph requires the employer to develop and implement a written respiratory protection program with required worksite-specific procedures and elements for required respirator use. The program must be administered by a suitably trained program administrator. In addition, certain program elements may be required for voluntary use to prevent potential hazards associated with the use of the respirator. The Small Entity Compliance Guide contains criteria for the selection of a program administrator and a sample program that meets the requirements of this paragraph. Copies of the Small Entity Compliance Guide will be available on or about April 8, 1998 from the Occupational Safety and Health Administration's Office of Publications, Room N 3101, 200 Constitution Avenue, NW, Washington, DC, 20210 (202-219-4667).
+
+(1) In any workplace where respirators are necessary to protect the health of the employee or whenever respirators are required by the employer, the employer shall establish and implement a written respiratory protection program with worksite-specific procedures. The program shall be updated as necessary to reflect those changes in workplace conditions that affect respirator use. The employer shall include in the program the following provisions of this section, as applicable:
+
+(i) Procedures for selecting respirators for use in the workplace;
+
+(ii) Medical evaluations of employees required to use respirators;
+
+(iii) Fit testing procedures for tight-fitting respirators;
+
+(iv) Procedures for proper use of respirators in routine and reasonably foreseeable emergency situations;
+
+(v) Procedures and schedules for cleaning, disinfecting, storing, inspecting, repairing, discarding, and otherwise maintaining respirators;
+
+(vi) Procedures to ensure adequate air quality, quantity, and flow of breathing air for atmosphere-supplying respirators;
+
+(vii) Training of employees in the respiratory hazards to which they are potentially exposed during routine and emergency situations;
+
+(viii) Training of employees in the proper use of respirators, including putting on and removing them, any limitations on their use, and their maintenance; and
+
+(ix) Procedures for regularly evaluating the effectiveness of the program.
+
+(2) Where respirator use is not required:
+
+(i) An employer may provide respirators at the request of employees or permit employees to use their own respirators, if the employer determines that such respirator use will not in itself create a hazard. If the employer determines that any voluntary respirator use is permissible, the employer shall provide the respirator users with the information contained in appendix D to this section (“Information for Employees Using Respirators When Not Required Under the Standard”); and
+
+(ii) In addition, the employer must establish and implement those elements of a written respiratory protection program necessary to ensure that any employee using a respirator voluntarily is medically able to use that respirator, and that the respirator is cleaned, stored, and maintained so that its use does not present a health hazard to the user. Exception: Employers are not required to include in a written respiratory protection program those employees whose only use of respirators involves the voluntary use of filtering facepieces (dust masks).
+
+(3) The employer shall designate a program administrator who is qualified by appropriate training or experience that is commensurate with the complexity of the program to administer or oversee the respiratory protection program and conduct the required evaluations of program effectiveness.
+
+(4) The employer shall provide respirators, training, and medical evaluations at no cost to the employee.
+
+(d) Selection of respirators. This paragraph requires the employer to evaluate respiratory hazard(s) in the workplace, identify relevant workplace and user factors, and base respirator selection on these factors. The paragraph also specifies appropriately protective respirators for use in IDLH atmospheres, and limits the selection and use of air-purifying respirators.
+
+(1) General requirements. (i) The employer shall select and provide an appropriate respirator based on the respiratory hazard(s) to which the worker is exposed and workplace and user factors that affect respirator performance and reliability.
+
+(ii) The employer shall select a NIOSH-certified respirator. The respirator shall be used in compliance with the conditions of its certification.
+
+(iii) The employer shall identify and evaluate the respiratory hazard(s) in the workplace; this evaluation shall include a reasonable estimate of employee exposures to respiratory hazard(s) and an identification of the contaminant's chemical state and physical form. Where the employer cannot identify or reasonably estimate the employee exposure, the employer shall consider the atmosphere to be IDLH.
+
+(iv) The employer shall select respirators from a sufficient number of respirator models and sizes so that the respirator is acceptable to, and correctly fits, the user.
+
+(2) Respirators for IDLH atmospheres. (i) The employer shall provide the following respirators for employee use in IDLH atmospheres:
+
+(A) A full facepiece pressure demand SCBA certified by NIOSH for a minimum service life of thirty minutes, or
+
+(B) A combination full facepiece pressure demand supplied-air respirator (SAR) with auxiliary self-contained air supply.
+
+(ii) Respirators provided only for escape from IDLH atmospheres shall be NIOSH-certified for escape from the atmosphere in which they will be used.
+
+(iii) All oxygen-deficient atmospheres shall be considered IDLH. Exception: If the employer demonstrates that, under all foreseeable conditions, the oxygen concentration can be maintained within the ranges specified in Table II of this section (i.e., for the altitudes set out in the table), then any atmosphere-supplying respirator may be used.
+
+(3) Respirators for atmospheres that are not IDLH. (i) The employer shall provide a respirator that is adequate to protect the health of the employee and ensure compliance with all other OSHA statutory and regulatory requirements, under routine and reasonably foreseeable emergency situations.
+
+(A) Assigned Protection Factors (APFs). Employers must use the assigned protection factors listed in Table 1 to select a respirator that meets or exceeds the required level of employee protection. When using a combination respirator (e.g., airline respirators with an air-purifying filter), employers must ensure that the assigned protection factor is appropriate to the mode of operation in which the respirator is being used.
+
+Table 1—Assigned Protection Factors 5
+
+(B) Maximum Use Concentration (MUC). (1) The employer must select a respirator for employee use that maintains the employee's exposure to the hazardous substance, when measured outside the respirator, at or below the MUC.
+
+(2) Employers must not apply MUCs to conditions that are immediately dangerous to life or health (IDLH); instead, they must use respirators listed for IDLH conditions in paragraph (d)(2) of this standard.
+
+(3) When the calculated MUC exceeds the IDLH level for a hazardous substance, or the performance limits of the cartridge or canister, then employers must set the maximum MUC at that lower limit.
+
+(ii) The respirator selected shall be appropriate for the chemical state and physical form of the contaminant.
+
+(iii) For protection against gases and vapors, the employer shall provide:
+
+(A) An atmosphere-supplying respirator, or
+
+(B) An air-purifying respirator, provided that:
+
+(1) The respirator is equipped with an end-of-service-life indicator (ESLI) certified by NIOSH for the contaminant; or
+
+(2) If there is no ESLI appropriate for conditions in the employer's workplace, the employer implements a change schedule for canisters and cartridges that is based on objective information or data that will ensure that canisters and cartridges are changed before the end of their service life. The employer shall describe in the respirator program the information and data relied upon and the basis for the canister and cartridge change schedule and the basis for reliance on the data.
+
+(iv) For protection against particulates, the employer shall provide:
+
+(A) An atmosphere-supplying respirator; or
+
+(B) An air-purifying respirator equipped with a filter certified by NIOSH under 30 CFR part 11 as a high efficiency particulate air (HEPA) filter, or an air-purifying respirator equipped with a filter certified for particulates by NIOSH under 42 CFR part 84; or
+
+(C) For contaminants consisting primarily of particles with mass median aerodynamic diameters (MMAD) of at least 2 micrometers, an air-purifying respirator equipped with any filter certified for particulates by NIOSH.
+
+Table II
+
+(e) Medical evaluation. Using a respirator may place a physiological burden on employees that varies with the type of respirator worn, the job and workplace conditions in which the respirator is used, and the medical status of the employee. Accordingly, this paragraph specifies the minimum requirements for medical evaluation that employers must implement to determine the employee's ability to use a respirator.
+
+(1) General. The employer shall provide a medical evaluation to determine the employee's ability to use a respirator, before the employee is fit tested or required to use the respirator in the workplace. The employer may discontinue an employee's medical evaluations when the employee is no longer required to use a respirator.
+
+(2) Medical evaluation procedures. (i) The employer shall identify a physician or other licensed health care professional (PLHCP) to perform medical evaluations using a medical questionnaire or an initial medical examination that obtains the same information as the medical questionnaire.
+
+(ii) The medical evaluation shall obtain the information requested by the questionnaire in Sections 1 and 2, part A of appendix C of this section.
+
+(3) Follow-up medical examination. (i) The employer shall ensure that a follow-up medical examination is provided for an employee who gives a positive response to any question among questions 1 through 8 in Section 2, part A of appendix C or whose initial medical examination demonstrates the need for a follow-up medical examination.
+
+(ii) The follow-up medical examination shall include any medical tests, consultations, or diagnostic procedures that the PLHCP deems necessary to make a final determination.
+
+(4) Administration of the medical questionnaire and examinations. (i) The medical questionnaire and examinations shall be administered confidentially during the employee's normal working hours or at a time and place convenient to the employee. The medical questionnaire shall be administered in a manner that ensures that the employee understands its content.
+
+(ii) The employer shall provide the employee with an opportunity to discuss the questionnaire and examination results with the PLHCP.
+
+(5) Supplemental information for the PLHCP. (i) The following information must be provided to the PLHCP before the PLHCP makes a recommendation concerning an employee's ability to use a respirator:
+
+(A) The type and weight of the respirator to be used by the employee;
+
+(B) The duration and frequency of respirator use (including use for rescue and escape);
+
+(C) The expected physical work effort;
+
+(D) Additional protective clothing and equipment to be worn; and
+
+(E) Temperature and humidity extremes that may be encountered.
+
+(ii) Any supplemental information provided previously to the PLHCP regarding an employee need not be provided for a subsequent medical evaluation if the information and the PLHCP remain the same.
+
+(iii) The employer shall provide the PLHCP with a copy of the written respiratory protection program and a copy of this section.
+
+When the employer replaces a PLHCP, the employer must ensure that the new PLHCP obtains this information, either by providing the documents directly to the PLHCP or having the documents transferred from the former PLHCP to the new PLHCP. However, OSHA does not expect employers to have employees medically reevaluated solely because a new PLHCP has been selected.
+
+(6) Medical determination. In determining the employee's ability to use a respirator, the employer shall:
+
+(i) Obtain a written recommendation regarding the employee's ability to use the respirator from the PLHCP. The recommendation shall provide only the following information:
+
+(A) Any limitations on respirator use related to the medical condition of the employee, or relating to the workplace conditions in which the respirator will be used, including whether or not the employee is medically able to use the respirator;
+
+(B) The need, if any, for follow-up medical evaluations; and
+
+(C) A statement that the PLHCP has provided the employee with a copy of the PLHCP's written recommendation.
+
+(ii) If the respirator is a negative pressure respirator and the PLHCP finds a medical condition that may place the employee's health at increased risk if the respirator is used, the employer shall provide a PAPR if the PLHCP's medical evaluation finds that the employee can use such a respirator; if a subsequent medical evaluation finds that the employee is medically able to use a negative pressure respirator, then the employer is no longer required to provide a PAPR.
+
+(7) Additional medical evaluations. At a minimum, the employer shall provide additional medical evaluations that comply with the requirements of this section if:
+
+(i) An employee reports medical signs or symptoms that are related to ability to use a respirator;
+
+(ii) A PLHCP, supervisor, or the respirator program administrator informs the employer that an employee needs to be reevaluated;
+
+(iii) Information from the respiratory protection program, including observations made during fit testing and program evaluation, indicates a need for employee reevaluation; or
+
+(iv) A change occurs in workplace conditions (e.g., physical work effort, protective clothing, temperature) that may result in a substantial increase in the physiological burden placed on an employee.
+
+(f) Fit testing. This paragraph requires that, before an employee may be required to use any respirator with a negative or positive pressure tight-fitting facepiece, the employee must be fit tested with the same make, model, style, and size of respirator that will be used. This paragraph specifies the kinds of fit tests allowed, the procedures for conducting them, and how the results of the fit tests must be used.
+
+(1) The employer shall ensure that employees using a tight-fitting facepiece respirator pass an appropriate qualitative fit test (QLFT) or quantitative fit test (QNFT) as stated in this paragraph.
+
+(2) The employer shall ensure that an employee using a tight-fitting facepiece respirator is fit tested prior to initial use of the respirator, whenever a different respirator facepiece (size, style, model or make) is used, and at least annually thereafter.
+
+(3) The employer shall conduct an additional fit test whenever the employee reports, or the employer, PLHCP, supervisor, or program administrator makes visual observations of, changes in the employee's physical condition that could affect respirator fit. Such conditions include, but are not limited to, facial scarring, dental changes, cosmetic surgery, or an obvious change in body weight.
+
+(4) If after passing a QLFT or QNFT, the employee subsequently notifies the employer, program administrator, supervisor, or PLHCP that the fit of the respirator is unacceptable, the employee shall be given a reasonable opportunity to select a different respirator facepiece and to be retested.
+
+(5) The fit test shall be administered using an OSHA-accepted QLFT or QNFT protocol. The OSHA-accepted QLFT and QNFT protocols and procedures are contained in appendix A of this section.
+
+(6) QLFT may only be used to fit test negative pressure air-purifying respirators that must achieve a fit factor of 100 or less.
+
+(7) If the fit factor, as determined through an OSHA-accepted QNFT protocol, is equal to or greater than 100 for tight-fitting half facepieces, or equal to or greater than 500 for tight-fitting full facepieces, the QNFT has been passed with that respirator.
+
+(8) Fit testing of tight-fitting atmosphere-supplying respirators and tight-fitting powered air-purifying respirators shall be accomplished by performing quantitative or qualitative fit testing in the negative pressure mode, regardless of the mode of operation (negative or positive pressure) that is used for respiratory protection.
+
+(i) Qualitative fit testing of these respirators shall be accomplished by temporarily converting the respirator user's actual facepiece into a negative pressure respirator with appropriate filters, or by using an identical negative pressure air-purifying respirator facepiece with the same sealing surfaces as a surrogate for the atmosphere-supplying or powered air-purifying respirator facepiece.
+
+(ii) Quantitative fit testing of these respirators shall be accomplished by modifying the facepiece to allow sampling inside the facepiece in the breathing zone of the user, midway between the nose and mouth. This requirement shall be accomplished by installing a permanent sampling probe onto a surrogate facepiece, or by using a sampling adapter designed to temporarily provide a means of sampling air from inside the facepiece.
+
+(iii) Any modifications to the respirator facepiece for fit testing shall be completely removed, and the facepiece restored to NIOSH-approved configuration, before that facepiece can be used in the workplace.
+
+(g) Use of respirators. This paragraph requires employers to establish and implement procedures for the proper use of respirators. These requirements include prohibiting conditions that may result in facepiece seal leakage, preventing employees from removing respirators in hazardous environments, taking actions to ensure continued effective respirator operation throughout the work shift, and establishing procedures for the use of respirators in IDLH atmospheres or in interior structural firefighting situations.
+
+(1) Facepiece seal protection. (i) The employer shall not permit respirators with tight-fitting facepieces to be worn by employees who have:
+
+(A) Facial hair that comes between the sealing surface of the facepiece and the face or that interferes with valve function; or
+
+(B) Any condition that interferes with the face-to-facepiece seal or valve function.
+
+(ii) If an employee wears corrective glasses or goggles or other personal protective equipment, the employer shall ensure that such equipment is worn in a manner that does not interfere with the seal of the facepiece to the face of the user.
+
+(iii) For all tight-fitting respirators, the employer shall ensure that employees perform a user seal check each time they put on the respirator using the procedures in appendix B-1 or procedures recommended by the respirator manufacturer that the employer demonstrates are as effective as those in appendix B-1 of this section.
+
+(2) Continuing respirator effectiveness. (i) Appropriate surveillance shall be maintained of work area conditions and degree of employee exposure or stress. When there is a change in work area conditions or degree of employee exposure or stress that may affect respirator effectiveness, the employer shall reevaluate the continued effectiveness of the respirator.
+
+(ii) The employer shall ensure that employees leave the respirator use area:
+
+(A) To wash their faces and respirator facepieces as necessary to prevent eye or skin irritation associated with respirator use; or
+
+(B) If they detect vapor or gas breakthrough, changes in breathing resistance, or leakage of the facepiece; or
+
+(C) To replace the respirator or the filter, cartridge, or canister elements.
+
+(iii) If the employee detects vapor or gas breakthrough, changes in breathing resistance, or leakage of the facepiece, the employer must replace or repair the respirator before allowing the employee to return to the work area.
+
+(3) Procedures for IDLH atmospheres. For all IDLH atmospheres, the employer shall ensure that:
+
+(i) One employee or, when needed, more than one employee is located outside the IDLH atmosphere;
+
+(ii) Visual, voice, or signal line communication is maintained between the employee(s) in the IDLH atmosphere and the employee(s) located outside the IDLH atmosphere;
+
+(iii) The employee(s) located outside the IDLH atmosphere are trained and equipped to provide effective emergency rescue;
+
+(iv) The employer or designee is notified before the employee(s) located outside the IDLH atmosphere enter the IDLH atmosphere to provide emergency rescue;
+
+(v) The employer or designee authorized to do so by the employer, once notified, provides necessary assistance appropriate to the situation;
+
+(vi) Employee(s) located outside the IDLH atmospheres are equipped with:
+
+(A) Pressure demand or other positive pressure SCBAs, or a pressure demand or other positive pressure supplied-air respirator with auxiliary SCBA; and either
+
+(B) Appropriate retrieval equipment for removing the employee(s) who enter(s) these hazardous atmospheres where retrieval equipment would contribute to the rescue of the employee(s) and would not increase the overall risk resulting from entry; or
+
+(C) Equivalent means for rescue where retrieval equipment is not required under paragraph (g)(3)(vi)(B).
+
+(4) Procedures for interior structural firefighting. In addition to the requirements set forth under paragraph (g)(3), in interior structural fires, the employer shall ensure that:
+
+(i) At least two employees enter the IDLH atmosphere and remain in visual or voice contact with one another at all times;
+
+(ii) At least two employees are located outside the IDLH atmosphere; and
+
+(iii) All employees engaged in interior structural firefighting use SCBAs.
+
+One of the two individuals located outside the IDLH atmosphere may be assigned to an additional role, such as incident commander in charge of the emergency or safety officer, so long as this individual is able to perform assistance or rescue activities without jeopardizing the safety or health of any firefighter working at the incident.
+
+Nothing in this section is meant to preclude firefighters from performing emergency rescue activities before an entire team has assembled.
+
+(h) Maintenance and care of respirators. This paragraph requires the employer to provide for the cleaning and disinfecting, storage, inspection, and repair of respirators used by employees.
+
+(1) Cleaning and disinfecting. The employer shall provide each respirator user with a respirator that is clean, sanitary, and in good working order. The employer shall ensure that respirators are cleaned and disinfected using the procedures in appendix B-2 of this section, or procedures recommended by the respirator manufacturer, provided that such procedures are of equivalent effectiveness. The respirators shall be cleaned and disinfected at the following intervals:
+
+(i) Respirators issued for the exclusive use of an employee shall be cleaned and disinfected as often as necessary to be maintained in a sanitary condition;
+
+(ii) Respirators issued to more than one employee shall be cleaned and disinfected before being worn by different individuals;
+
+(iii) Respirators maintained for emergency use shall be cleaned and disinfected after each use; and
+
+(iv) Respirators used in fit testing and training shall be cleaned and disinfected after each use.
+
+(2) Storage. The employer shall ensure that respirators are stored as follows:
+
+(i) All respirators shall be stored to protect them from damage, contamination, dust, sunlight, extreme temperatures, excessive moisture, and damaging chemicals, and they shall be packed or stored to prevent deformation of the facepiece and exhalation valve.
+
+(ii) In addition to the requirements of paragraph (h)(2)(i) of this section, emergency respirators shall be:
+
+(A) Kept accessible to the work area;
+
+(B) Stored in compartments or in covers that are clearly marked as containing emergency respirators; and
+
+(C) Stored in accordance with any applicable manufacturer instructions.
+
+(3) Inspection. (i) The employer shall ensure that respirators are inspected as follows:
+
+(A) All respirators used in routine situations shall be inspected before each use and during cleaning;
+
+(B) All respirators maintained for use in emergency situations shall be inspected at least monthly and in accordance with the manufacturer's recommendations, and shall be checked for proper function before and after each use; and
+
+(C) Emergency escape-only respirators shall be inspected before being carried into the workplace for use.
+
+(ii) The employer shall ensure that respirator inspections include the following:
+
+(A) A check of respirator function, tightness of connections, and the condition of the various parts including, but not limited to, the facepiece, head straps, valves, connecting tube, and cartridges, canisters or filters; and
+
+(B) A check of elastomeric parts for pliability and signs of deterioration.
+
+(iii) In addition to the requirements of paragraphs (h)(3)(i) and (ii) of this section, self-contained breathing apparatus shall be inspected monthly. Air and oxygen cylinders shall be maintained in a fully charged state and shall be recharged when the pressure falls to 90% of the manufacturer's recommended pressure level. The employer shall determine that the regulator and warning devices function properly.
+
+(iv) For respirators maintained for emergency use, the employer shall:
+
+(A) Certify the respirator by documenting the date the inspection was performed, the name (or signature) of the person who made the inspection, the findings, required remedial action, and a serial number or other means of identifying the inspected respirator; and
+
+(B) Provide this information on a tag or label that is attached to the storage compartment for the respirator, is kept with the respirator, or is included in inspection reports stored as paper or electronic files. This information shall be maintained until replaced following a subsequent certification.
+
+(4) Repairs. The employer shall ensure that respirators that fail an inspection or are otherwise found to be defective are removed from service, and are discarded or repaired or adjusted in accordance with the following procedures:
+
+(i) Repairs or adjustments to respirators are to be made only by persons appropriately trained to perform such operations and shall use only the respirator manufacturer's NIOSH-approved parts designed for the respirator;
+
+(ii) Repairs shall be made according to the manufacturer's recommendations and specifications for the type and extent of repairs to be performed; and
+
+(iii) Reducing and admission valves, regulators, and alarms shall be adjusted or repaired only by the manufacturer or a technician trained by the manufacturer.
+
+(i) Breathing air quality and use. This paragraph requires the employer to provide employees using atmosphere-supplying respirators (supplied-air and SCBA) with breathing gases of high purity.
+
+(1) The employer shall ensure that compressed air, compressed oxygen, liquid air, and liquid oxygen used for respiration accords with the following specifications:
+
+(i) Compressed and liquid oxygen shall meet the United States Pharmacopoeia requirements for medical or breathing oxygen; and
+
+(ii) Compressed breathing air shall meet at least the requirements for Grade D breathing air described in ANSI/Compressed Gas Association Commodity Specification for Air, G-7.1-1989, to include:
+
+(A) Oxygen content (v/v) of 19.5-23.5%;
+
+(B) Hydrocarbon (condensed) content of 5 milligrams per cubic meter of air or less;
+
+(C) Carbon monoxide (CO) content of 10 ppm or less;
+
+(D) Carbon dioxide content of 1,000 ppm or less; and
+
+(E) Lack of noticeable odor.
+
+(2) The employer shall ensure that compressed oxygen is not used in atmosphere-supplying respirators that have previously used compressed air.
+
+(3) The employer shall ensure that oxygen concentrations greater than 23.5% are used only in equipment designed for oxygen service or distribution.
+
+(4) The employer shall ensure that cylinders used to supply breathing air to respirators meet the following requirements:
+
+(i) Cylinders are tested and maintained as prescribed in the Shipping Container Specification Regulations of the Department of Transportation (49 CFR part 180);
+
+(ii) Cylinders of purchased breathing air have a certificate of analysis from the supplier that the breathing air meets the requirements for Grade D breathing air; and
+
+(iii) The moisture content in the cylinder does not exceed a dew point of −50 °F (−45.6 °C) at 1 atmosphere pressure.
+
+(5) The employer shall ensure that compressors used to supply breathing air to respirators are constructed and situated so as to:
+
+(i) Prevent entry of contaminated air into the air-supply system;
+
+(ii) Minimize moisture content so that the dew point at 1 atmosphere pressure is 10 degrees F (5.56 °C) below the ambient temperature;
+
+(iii) Have suitable in-line air-purifying sorbent beds and filters to further ensure breathing air quality. Sorbent beds and filters shall be maintained and replaced or refurbished periodically following the manufacturer's instructions.
+
+(iv) Have a tag containing the most recent change date and the signature of the person authorized by the employer to perform the change. The tag shall be maintained at the compressor.
+
+(6) For compressors that are not oil-lubricated, the employer shall ensure that carbon monoxide levels in the breathing air do not exceed 10 ppm.
+
+(7) For oil-lubricated compressors, the employer shall use a high-temperature or carbon monoxide alarm, or both, to monitor carbon monoxide levels. If only high-temperature alarms are used, the air supply shall be monitored at intervals sufficient to prevent carbon monoxide in the breathing air from exceeding 10 ppm.
+
+(8) The employer shall ensure that breathing air couplings are incompatible with outlets for nonrespirable worksite air or other gas systems. No asphyxiating substance shall be introduced into breathing air lines.
+
+(9) The employer shall use only the respirator manufacturer's NIOSH-approved breathing-gas containers, marked and maintained in accordance with the Quality Assurance provisions of the NIOSH approval for the SCBA as issued in accordance with the NIOSH respirator-certification standard at 42 CFR part 84.
+
+(j) Identification of filters, cartridges, and canisters. The employer shall ensure that all filters, cartridges and canisters used in the workplace are labeled and color coded with the NIOSH approval label and that the label is not removed and remains legible.
+
+(k) Training and information. This paragraph requires the employer to provide effective training to employees who are required to use respirators. The training must be comprehensive, understandable, and recur annually, and more often if necessary. This paragraph also requires the employer to provide the basic information on respirators in appendix D of this section to employees who wear respirators when not required by this section or by the employer to do so.
+
+(1) The employer shall ensure that each employee can demonstrate knowledge of at least the following:
+
+(i) Why the respirator is necessary and how improper fit, usage, or maintenance can compromise the protective effect of the respirator;
+
+(ii) What the limitations and capabilities of the respirator are;
+
+(iii) How to use the respirator effectively in emergency situations, including situations in which the respirator malfunctions;
+
+(iv) How to inspect, put on and remove, use, and check the seals of the respirator;
+
+(v) What the procedures are for maintenance and storage of the respirator;
+
+(vi) How to recognize medical signs and symptoms that may limit or prevent the effective use of respirators; and
+
+(vii) The general requirements of this section.
+
+(2) The training shall be conducted in a manner that is understandable to the employee.
+
+(3) The employer shall provide the training prior to requiring the employee to use a respirator in the workplace.
+
+(4) An employer who is able to demonstrate that a new employee has received training within the last 12 months that addresses the elements specified in paragraph (k)(1)(i) through (vii) is not required to repeat such training provided that, as required by paragraph (k)(1), the employee can demonstrate knowledge of those element(s). Previous training not repeated initially by the employer must be provided no later than 12 months from the date of the previous training.
+
+(5) Retraining shall be administered annually, and when the following situations occur:
+
+(i) Changes in the workplace or the type of respirator render previous training obsolete;
+
+(ii) Inadequacies in the employee's knowledge or use of the respirator indicate that the employee has not retained the requisite understanding or skill; or
+
+(iii) Any other situation arises in which retraining appears necessary to ensure safe respirator use.
+
+(6) The basic advisory information on respirators, as presented in appendix D of this section, shall be provided by the employer in any written or oral format, to employees who wear respirators when such use is not required by this section or by the employer.
+
+(l) Program evaluation. This section requires the employer to conduct evaluations of the workplace to ensure that the written respiratory protection program is being properly implemented, and to consult employees to ensure that they are using the respirators properly.
+
+(1) The employer shall conduct evaluations of the workplace as necessary to ensure that the provisions of the current written program are being effectively implemented and that it continues to be effective.
+
+(2) The employer shall regularly consult employees required to use respirators to assess the employees' views on program effectiveness and to identify any problems. Any problems that are identified during this assessment shall be corrected. Factors to be assessed include, but are not limited to:
+
+(i) Respirator fit (including the ability to use the respirator without interfering with effective workplace performance);
+
+(ii) Appropriate respirator selection for the hazards to which the employee is exposed;
+
+(iii) Proper respirator use under the workplace conditions the employee encounters; and
+
+(iv) Proper respirator maintenance.
+
+(m) Recordkeeping. This section requires the employer to establish and retain written information regarding medical evaluations, fit testing, and the respirator program. This information will facilitate employee involvement in the respirator program, assist the employer in auditing the adequacy of the program, and provide a record for compliance determinations by OSHA.
+
+(1) Medical evaluation. Records of medical evaluations required by this section must be retained and made available in accordance with 29 CFR 1910.1020.
+
+(2) Fit testing. (i) The employer shall establish a record of the qualitative and quantitative fit tests administered to an employee including:
+
+(A) The name or identification of the employee tested;
+
+(B) Type of fit test performed;
+
+(C) Specific make, model, style, and size of respirator tested;
+
+(D) Date of test; and
+
+(E) The pass/fail results for QLFTs or the fit factor and strip chart recording or other recording of the test results for QNFTs.
+
+(ii) Fit test records shall be retained for respirator users until the next fit test is administered.
+
+(3) A written copy of the current respirator program shall be retained by the employer.
+
+(4) Written materials required to be retained under this paragraph shall be made available upon request to affected employees and to the Assistant Secretary or designee for examination and copying.
+
+(n) Effective date. Paragraphs (d)(3)(i)(A) and (d)(3)(i)(B) of this section become effective November 22, 2006.
+
+(o) Appendices. Compliance with appendix A, appendix B-1, appendix B-2, appendix C, and appendix D to this section are mandatory.
+
+The employer shall conduct fit testing using the following procedures. The requirements in this appendix apply to all OSHA-accepted fit test methods, both QLFT and QNFT.
+
+1. The test subject shall be allowed to pick the most acceptable respirator from a sufficient number of respirator models and sizes so that the respirator is acceptable to, and correctly fits, the user.
+
+2. Prior to the selection process, the test subject shall be shown how to put on a respirator, how it should be positioned on the face, how to set strap tension and how to determine an acceptable fit. A mirror shall be available to assist the subject in evaluating the fit and positioning of the respirator. This instruction may not constitute the subject's formal training on respirator use, because it is only a review.
+
+3. The test subject shall be informed that he/she is being asked to select the respirator that provides the most acceptable fit. Each respirator represents a different size and shape, and if fitted and used properly, will provide adequate protection.
+
+4. The test subject shall be instructed to hold each chosen facepiece up to the face and eliminate those that obviously do not give an acceptable fit.
+
+5. The more acceptable facepieces are noted in case the one selected proves unacceptable; the most comfortable mask is donned and worn at least five minutes to assess comfort. Assistance in assessing comfort can be given by discussing the points in the following item A.6. If the test subject is not familiar with using a particular respirator, the test subject shall be directed to don the mask several times and to adjust the straps each time to become adept at setting proper tension on the straps.
+
+6. Assessment of comfort shall include a review of the following points with the test subject and allowing the test subject adequate time to determine the comfort of the respirator:
+
+(a) Position of the mask on the nose
+
+(b) Room for eye protection
+
+(c) Room to talk
+
+(d) Position of mask on face and cheeks
+
+7. The following criteria shall be used to help determine the adequacy of the respirator fit:
+
+(a) Chin properly placed;
+
+(b) Adequate strap tension, not overly tightened;
+
+(c) Fit across nose bridge;
+
+(d) Respirator of proper size to span distance from nose to chin;
+
+(e) Tendency of respirator to slip;
+
+(f) Self-observation in mirror to evaluate fit and respirator position.
+
+8. The test subject shall conduct a user seal check, either the negative and positive pressure seal checks described in appendix B-1 of this section or those recommended by the respirator manufacturer which provide equivalent protection to the procedures in appendix B-1. Before conducting the negative and positive pressure checks, the subject shall be told to seat the mask on the face by moving the head from side-to-side and up and down slowly while taking in a few slow deep breaths. Another facepiece shall be selected and retested if the test subject fails the user seal check tests.
+
+9. The test shall not be conducted if there is any hair growth between the skin and the facepiece sealing surface, such as stubble beard growth, beard, mustache or sideburns which cross the respirator sealing surface. Any type of apparel which interferes with a satisfactory fit shall be altered or removed.
+
+10. If a test subject exhibits difficulty in breathing during the tests, she or he shall be referred to a physician or other licensed health care professional, as appropriate, to determine whether the test subject can wear a respirator while performing her or his duties.
+
+11. If the employee finds the fit of the respirator unacceptable, the test subject shall be given the opportunity to select a different respirator and to be retested.
+
+12. Exercise regimen. Prior to the commencement of the fit test, the test subject shall be given a description of the fit test and the test subject's responsibilities during the test procedure. The description of the process shall include a description of the test exercises that the subject will be performing. The respirator to be tested shall be worn for at least 5 minutes before the start of the fit test.
+
+13. The fit test shall be performed while the test subject is wearing any applicable safety equipment that may be worn during actual respirator use which could interfere with respirator fit.
+
+14. Test Exercises. (a) Employers must perform the following test exercises for all fit testing methods prescribed in this appendix, except for the two modified ambient aerosol CNC quantitative fit testing protocols, the CNP quantitative fit testing protocol, and the CNP REDON quantitative fit testing protocol. For the modified ambient aerosol CNC quantitative fit testing protocols, employers shall ensure that the test subjects (i.e., employees) perform the exercise procedure specified in Part I.C.4(b) of this appendix for full-facepiece and half-mask elastomeric respirators, or the exercise procedure specified in Part I.C.5(b) for filtering facepiece respirators. Employers shall ensure that the test subjects (i.e., employees) perform the exercise procedure specified in Part I.C.6(b) of this appendix for the CNP quantitative fit testing protocol, or the exercise procedure described in Part I.C.7(b) of this appendix for the CNP REDON quantitative fit testing protocol. For the remaining fit testing methods, employers shall ensure that the test exercises are performed in the appropriate test environment in the following manner:
+
+(1) Normal breathing. In a normal standing position, without talking, the subject shall breathe normally.
+
+(2) Deep breathing. In a normal standing position, the subject shall breathe slowly and deeply, taking caution so as not to hyperventilate.
+
+(3) Turning head side to side. Standing in place, the subject shall slowly turn his/her head from side to side between the extreme positions on each side. The head shall be held at each extreme momentarily so the subject can inhale at each side.
+
+(4) Moving head up and down. Standing in place, the subject shall slowly move his/her head up and down. The subject shall be instructed to inhale in the up position (i.e., when looking toward the ceiling).
+
+(5) Talking. The subject shall talk out loud slowly and loud enough so as to be heard clearly by the test conductor. The subject can read from a prepared text such as the Rainbow Passage, count backward from 100, or recite a memorized poem or song.
+
+When the sunlight strikes raindrops in the air, they act like a prism and form a rainbow. The rainbow is a division of white light into many beautiful colors. These take the shape of a long round arch, with its path high above, and its two ends apparently beyond the horizon. There is, according to legend, a boiling pot of gold at one end. People look, but no one ever finds it. When a man looks for something beyond reach, his friends say he is looking for the pot of gold at the end of the rainbow.
+
+(6) Grimace. The test subject shall grimace by smiling or frowning. (This applies only to QNFT testing; it is not performed for QLFT)
+
+(7) Bending over. The test subject shall bend at the waist as if he/she were to touch his/her toes. Jogging in place shall be substituted for this exercise in those test environments such as shroud type QNFT or QLFT units that do not permit bending over at the waist.
+
+(8) Normal breathing. Same as exercise (1).
+
+(b) Each test exercise shall be performed for one minute except for the grimace exercise which shall be performed for 15 seconds. The test subject shall be questioned by the test conductor regarding the comfort of the respirator upon completion of the protocol. If it has become unacceptable, another model of respirator shall be tried. The respirator shall not be adjusted once the fit test exercises begin. Any adjustment voids the test, and the fit test must be repeated.
+
+(a) The employer shall ensure that persons administering QLFT are able to prepare test solutions, calibrate equipment and perform tests properly, recognize invalid tests, and ensure that test equipment is in proper working order.
+
+(b) The employer shall ensure that QLFT equipment is kept clean and well maintained so as to operate within the parameters for which it was designed.
+
+This protocol is not appropriate to use for the fit testing of particulate respirators. If used to fit test particulate respirators, the respirator must be equipped with an organic vapor filter.
+
+(a) Odor Threshold Screening
+
+Odor threshold screening, performed without wearing a respirator, is intended to determine if the individual tested can detect the odor of isoamyl acetate at low levels.
+
+(1) Three 1 liter glass jars with metal lids are required.
+
+(2) Odor-free water (e.g., distilled or spring water) at approximately 25 °C (77 °F) shall be used for the solutions.
+
+(3) The isoamyl acetate (IAA) (also known at isopentyl acetate) stock solution is prepared by adding 1 ml of pure IAA to 800 ml of odor-free water in a 1 liter jar, closing the lid and shaking for 30 seconds. A new solution shall be prepared at least weekly.
+
+(4) The screening test shall be conducted in a room separate from the room used for actual fit testing. The two rooms shall be well-ventilated to prevent the odor of IAA from becoming evident in the general room air where testing takes place.
+
+(5) The odor test solution is prepared in a second jar by placing 0.4 ml of the stock solution into 500 ml of odor-free water using a clean dropper or pipette. The solution shall be shaken for 30 seconds and allowed to stand for two to three minutes so that the IAA concentration above the liquid may reach equilibrium. This solution shall be used for only one day.
+
+(6) A test blank shall be prepared in a third jar by adding 500 cc of odor-free water.
+
+(7) The odor test and test blank jar lids shall be labeled (e.g., 1 and 2) for jar identification. Labels shall be placed on the lids so that they can be peeled off periodically and switched to maintain the integrity of the test.
+
+(8) The following instruction shall be typed on a card and placed on the table in front of the two test jars (i.e., 1 and 2): “The purpose of this test is to determine if you can smell banana oil at a low concentration. The two bottles in front of you contain water. One of these bottles also contains a small amount of banana oil. Be sure the covers are on tight, then shake each bottle for two seconds. Unscrew the lid of each bottle, one at a time, and sniff at the mouth of the bottle. Indicate to the test conductor which bottle contains banana oil.”
+
+(9) The mixtures used in the IAA odor detection test shall be prepared in an area separate from where the test is performed, in order to prevent olfactory fatigue in the subject.
+
+(10) If the test subject is unable to correctly identify the jar containing the odor test solution, the IAA qualitative fit test shall not be performed.
+
+(11) If the test subject correctly identifies the jar containing the odor test solution, the test subject may proceed to respirator selection and fit testing.
+
+(b) Isoamyl Acetate Fit Test
+
+(1) The fit test chamber shall be a clear 55-gallon drum liner suspended inverted over a 2-foot diameter frame so that the top of the chamber is about 6 inches above the test subject's head. If no drum liner is available, a similar chamber shall be constructed using plastic sheeting. The inside top center of the chamber shall have a small hook attached.
+
+(2) Each respirator used for the fitting and fit testing shall be equipped with organic vapor cartridges or offer protection against organic vapors.
+
+(3) After selecting, donning, and properly adjusting a respirator, the test subject shall wear it to the fit testing room. This room shall be separate from the room used for odor threshold screening and respirator selection, and shall be well-ventilated, as by an exhaust fan or lab hood, to prevent general room contamination.
+
+(4) A copy of the test exercises and any prepared text from which the subject is to read shall be taped to the inside of the test chamber.
+
+(5) Upon entering the test chamber, the test subject shall be given a 6-inch by 5-inch piece of paper towel, or other porous, absorbent, single-ply material, folded in half and wetted with 0.75 ml of pure IAA. The test subject shall hang the wet towel on the hook at the top of the chamber. An IAA test swab or ampule may be substituted for the IAA wetted paper towel provided it has been demonstrated that the alternative IAA source will generate an IAA test atmosphere with a concentration equivalent to that generated by the paper towel method.
+
+(6) Allow two minutes for the IAA test concentration to stabilize before starting the fit test exercises. This would be an appropriate time to talk with the test subject; to explain the fit test, the importance of his/her cooperation, and the purpose for the test exercises; or to demonstrate some of the exercises.
+
+(7) If at any time during the test, the subject detects the banana-like odor of IAA, the test is failed. The subject shall quickly exit from the test chamber and leave the test area to avoid olfactory fatigue.
+
+(8) If the test is failed, the subject shall return to the selection room and remove the respirator. The test subject shall repeat the odor sensitivity test, select and put on another respirator, return to the test area and again begin the fit test procedure described in (b) (1) through (7) above. The process continues until a respirator that fits well has been found. Should the odor sensitivity test be failed, the subject shall wait at least 5 minutes before retesting. Odor sensitivity will usually have returned by this time.
+
+(9) If the subject passes the test, the efficiency of the test procedure shall be demonstrated by having the subject break the respirator face seal and take a breath before exiting the chamber.
+
+(10) When the test subject leaves the chamber, the subject shall remove the saturated towel and return it to the person conducting the test, so that there is no significant IAA concentration buildup in the chamber during subsequent tests. The used towels shall be kept in a self-sealing plastic bag to keep the test area from being contaminated.
+
+The entire screening and testing procedure shall be explained to the test subject prior to the conduct of the screening test.
+
+(a) Taste threshold screening. The saccharin taste threshold screening, performed without wearing a respirator, is intended to determine whether the individual being tested can detect the taste of saccharin.
+
+(1) During threshold screening as well as during fit testing, subjects shall wear an enclosure about the head and shoulders that is approximately 12 inches in diameter by 14 inches tall with at least the front portion clear and that allows free movements of the head when a respirator is worn. An enclosure substantially similar to the 3M hood assembly, parts # FT 14 and # FT 15 combined, is adequate.
+
+(2) The test enclosure shall have a
+3/4-inch (1.9 cm) hole in front of the test subject's nose and mouth area to accommodate the nebulizer nozzle.
+
+(3) The test subject shall don the test enclosure. Throughout the threshold screening test, the test subject shall breathe through his/her slightly open mouth with tongue extended. The subject is instructed to report when he/she detects a sweet taste.
+
+(4) Using a DeVilbiss Model 40 Inhalation Medication Nebulizer or equivalent, the test conductor shall spray the threshold check solution into the enclosure. The nozzle is directed away from the nose and mouth of the person. This nebulizer shall be clearly marked to distinguish it from the fit test solution nebulizer.
+
+(5) The threshold check solution is prepared by dissolving 0.83 gram of sodium saccharin USP in 100 ml of warm water. It can be prepared by putting 1 ml of the fit test solution (see (b)(5) below) in 100 ml of distilled water.
+
+(6) To produce the aerosol, the nebulizer bulb is firmly squeezed so that it collapses completely, then released and allowed to fully expand.
+
+(7) Ten squeezes are repeated rapidly and then the test subject is asked whether the saccharin can be tasted. If the test subject reports tasting the sweet taste during the ten squeezes, the screening test is completed. The taste threshold is noted as ten regardless of the number of squeezes actually completed.
+
+(8) If the first response is negative, ten more squeezes are repeated rapidly and the test subject is again asked whether the saccharin is tasted. If the test subject reports tasting the sweet taste during the second ten squeezes, the screening test is completed. The taste threshold is noted as twenty regardless of the number of squeezes actually completed.
+
+(9) If the second response is negative, ten more squeezes are repeated rapidly and the test subject is again asked whether the saccharin is tasted. If the test subject reports tasting the sweet taste during the third set of ten squeezes, the screening test is completed. The taste threshold is noted as thirty regardless of the number of squeezes actually completed.
+
+(10) The test conductor will take note of the number of squeezes required to solicit a taste response.
+
+(11) If the saccharin is not tasted after 30 squeezes (step 10), the test subject is unable to taste saccharin and may not perform the saccharin fit test.
+
+If the test subject eats or drinks something sweet before the screening test, he/she may be unable to taste the weak saccharin solution.
+
+(12) If a taste response is elicited, the test subject shall be asked to take note of the taste for reference in the fit test.
+
+(13) Correct use of the nebulizer means that approximately 1 ml of liquid is used at a time in the nebulizer body.
+
+(14) The nebulizer shall be thoroughly rinsed in water, shaken dry, and refilled at least each morning and afternoon or at least every four hours.
+
+(b) Saccharin solution aerosol fit test procedure.
+
+(1) The test subject may not eat, drink (except plain water), smoke, or chew gum for 15 minutes before the test.
+
+(2) The fit test uses the same enclosure described in 3. (a) above.
+
+(3) The test subject shall don the enclosure while wearing the respirator selected in section I. A. of this appendix. The respirator shall be properly adjusted and equipped with a particulate filter(s).
+
+(4) A second DeVilbiss Model 40 Inhalation Medication Nebulizer or equivalent is used to spray the fit test solution into the enclosure. This nebulizer shall be clearly marked to distinguish it from the screening test solution nebulizer.
+
+(5) The fit test solution is prepared by adding 83 grams of sodium saccharin to 100 ml of warm water.
+
+(6) As before, the test subject shall breathe through the slightly open mouth with tongue extended, and report if he/she tastes the sweet taste of saccharin.
+
+(7) The nebulizer is inserted into the hole in the front of the enclosure and an initial concentration of saccharin fit test solution is sprayed into the enclosure using the same number of squeezes (either 10, 20 or 30 squeezes) based on the number of squeezes required to elicit a taste response as noted during the screening test. A minimum of 10 squeezes is required.
+
+(8) After generating the aerosol, the test subject shall be instructed to perform the exercises in section I. A. 14. of this appendix.
+
+(9) Every 30 seconds the aerosol concentration shall be replenished using one half the original number of squeezes used initially (e.g., 5, 10 or 15).
+
+(10) The test subject shall indicate to the test conductor if at any time during the fit test the taste of saccharin is detected. If the test subject does not report tasting the saccharin, the test is passed.
+
+(11) If the taste of saccharin is detected, the fit is deemed unsatisfactory and the test is failed. A different respirator shall be tried and the entire test procedure is repeated (taste threshold screening and fit testing).
+
+(12) Since the nebulizer has a tendency to clog during use, the test operator must make periodic checks of the nebulizer to ensure that it is not clogged. If clogging is found at the end of the test session, the test is invalid.
+
+The Bitrex
+TM (Denatonium benzoate) solution aerosol QLFT protocol uses the published saccharin test protocol because that protocol is widely accepted. Bitrex is routinely used as a taste aversion agent in household liquids which children should not be drinking and is endorsed by the American Medical Association, the National Safety Council, and the American Association of Poison Control Centers. The entire screening and testing procedure shall be explained to the test subject prior to the conduct of the screening test.
+
+(a) Taste Threshold Screening.
+
+The Bitrex taste threshold screening, performed without wearing a respirator, is intended to determine whether the individual being tested can detect the taste of Bitrex.
+
+(1) During threshold screening as well as during fit testing, subjects shall wear an enclosure about the head and shoulders that is approximately 12 inches (30.5 cm) in diameter by 14 inches (35.6 cm) tall. The front portion of the enclosure shall be clear from the respirator and allow free movement of the head when a respirator is worn. An enclosure substantially similar to the 3M hood assembly, parts # FT 14 and # FT 15 combined, is adequate.
+
+(2) The test enclosure shall have a
+3/4 inch (1.9 cm) hole in front of the test subject's nose and mouth area to accommodate the nebulizer nozzle.
+
+(3) The test subject shall don the test enclosure. Throughout the threshold screening test, the test subject shall breathe through his or her slightly open mouth with tongue extended. The subject is instructed to report when he/she detects a bitter taste.
+
+(4) Using a DeVilbiss Model 40 Inhalation Medication Nebulizer or equivalent, the test conductor shall spray the Threshold Check Solution into the enclosure. This Nebulizer shall be clearly marked to distinguish it from the fit test solution nebulizer.
+
+(5) The Threshold Check Solution is prepared by adding 13.5 milligrams of Bitrex to 100 ml of 5% salt (NaCl) solution in distilled water.
+
+(6) To produce the aerosol, the nebulizer bulb is firmly squeezed so that the bulb collapses completely, and is then released and allowed to fully expand.
+
+(7) An initial ten squeezes are repeated rapidly and then the test subject is asked whether the Bitrex can be tasted. If the test subject reports tasting the bitter taste during the ten squeezes, the screening test is completed. The taste threshold is noted as ten regardless of the number of squeezes actually completed.
+
+(8) If the first response is negative, ten more squeezes are repeated rapidly and the test subject is again asked whether the Bitrex is tasted. If the test subject reports tasting the bitter taste during the second ten squeezes, the screening test is completed. The taste threshold is noted as twenty regardless of the number of squeezes actually completed.
+
+(9) If the second response is negative, ten more squeezes are repeated rapidly and the test subject is again asked whether the Bitrex is tasted. If the test subject reports tasting the bitter taste during the third set of ten squeezes, the screening test is completed. The taste threshold is noted as thirty regardless of the number of squeezes actually completed.
+
+(10) The test conductor will take note of the number of squeezes required to solicit a taste response.
+
+(11) If the Bitrex is not tasted after 30 squeezes (step 10), the test subject is unable to taste Bitrex and may not perform the Bitrex fit test.
+
+(12) If a taste response is elicited, the test subject shall be asked to take note of the taste for reference in the fit test.
+
+(13) Correct use of the nebulizer means that approximately 1 ml of liquid is used at a time in the nebulizer body.
+
+(14) The nebulizer shall be thoroughly rinsed in water, shaken to dry, and refilled at least each morning and afternoon or at least every four hours.
+
+(b) Bitrex Solution Aerosol Fit Test Procedure.
+
+(1) The test subject may not eat, drink (except plain water), smoke, or chew gum for 15 minutes before the test.
+
+(2) The fit test uses the same enclosure as that described in 4. (a) above.
+
+(3) The test subject shall don the enclosure while wearing the respirator selected according to section I. A. of this appendix. The respirator shall be properly adjusted and equipped with any type particulate filter(s).
+
+(4) A second DeVilbiss Model 40 Inhalation Medication Nebulizer or equivalent is used to spray the fit test solution into the enclosure. This nebulizer shall be clearly marked to distinguish it from the screening test solution nebulizer.
+
+(5) The fit test solution is prepared by adding 337.5 mg of Bitrex to 200 ml of a 5% salt (NaCl) solution in warm water.
+
+(6) As before, the test subject shall breathe through his or her slightly open mouth with tongue extended, and be instructed to report if he/she tastes the bitter taste of Bitrex.
+
+(7) The nebulizer is inserted into the hole in the front of the enclosure and an initial concentration of the fit test solution is sprayed into the enclosure using the same number of squeezes (either 10, 20 or 30 squeezes) based on the number of squeezes required to elicit a taste response as noted during the screening test.
+
+(8) After generating the aerosol, the test subject shall be instructed to perform the exercises in section I. A. 14. of this appendix.
+
+(9) Every 30 seconds the aerosol concentration shall be replenished using one half the number of squeezes used initially (e.g., 5, 10 or 15).
+
+(10) The test subject shall indicate to the test conductor if at any time during the fit test the taste of Bitrex is detected. If the test subject does not report tasting the Bitrex, the test is passed.
+
+(11) If the taste of Bitrex is detected, the fit is deemed unsatisfactory and the test is failed. A different respirator shall be tried and the entire test procedure is repeated (taste threshold screening and fit testing).
+
+This qualitative fit test uses a person's response to the irritating chemicals released in the “smoke” produced by a stannic chloride ventilation smoke tube to detect leakage into the respirator.
+
+(a) General Requirements and Precautions
+
+(1) The respirator to be tested shall be equipped with high efficiency particulate air (HEPA) or P100 series filter(s).
+
+(2) Only stannic chloride smoke tubes shall be used for this protocol.
+
+(3) No form of test enclosure or hood for the test subject shall be used.
+
+(4) The smoke can be irritating to the eyes, lungs, and nasal passages. The test conductor shall take precautions to minimize the test subject's exposure to irritant smoke. Sensitivity varies, and certain individuals may respond to a greater degree to irritant smoke. Care shall be taken when performing the sensitivity screening checks that determine whether the test subject can detect irritant smoke to use only the minimum amount of smoke necessary to elicit a response from the test subject.
+
+(5) The fit test shall be performed in an area with adequate ventilation to prevent exposure of the person conducting the fit test or the build-up of irritant smoke in the general atmosphere.
+
+(b) Sensitivity Screening Check
+
+The person to be tested must demonstrate his or her ability to detect a weak concentration of the irritant smoke.
+
+(1) The test operator shall break both ends of a ventilation smoke tube containing stannic chloride, and attach one end of the smoke tube to a low flow air pump set to deliver 200 milliliters per minute, or an aspirator squeeze bulb. The test operator shall cover the other end of the smoke tube with a short piece of tubing to prevent potential injury from the jagged end of the smoke tube.
+
+(2) The test operator shall advise the test subject that the smoke can be irritating to the eyes, lungs, and nasal passages and instruct the subject to keep his/her eyes closed while the test is performed.
+
+(3) The test subject shall be allowed to smell a weak concentration of the irritant smoke before the respirator is donned to become familiar with its irritating properties and to determine if he/she can detect the irritating properties of the smoke. The test operator shall carefully direct a small amount of the irritant smoke in the test subject's direction to determine that he/she can detect it.
+
+(c) Irritant Smoke Fit Test Procedure
+
+(1) The person being fit tested shall don the respirator without assistance, and perform the required user seal check(s).
+
+(2) The test subject shall be instructed to keep his/her eyes closed.
+
+(3) The test operator shall direct the stream of irritant smoke from the smoke tube toward the faceseal area of the test subject, using the low flow pump or the squeeze bulb. The test operator shall begin at least 12 inches from the facepiece and move the smoke stream around the whole perimeter of the mask. The operator shall gradually make two more passes around the perimeter of the mask, moving to within six inches of the respirator.
+
+(4) If the person being tested has not had an involuntary response and/or detected the irritant smoke, proceed with the test exercises.
+
+(5) The exercises identified in section I.A. 14. of this appendix shall be performed by the test subject while the respirator seal is being continually challenged by the smoke, directed around the perimeter of the respirator at a distance of six inches.
+
+(6) If the person being fit tested reports detecting the irritant smoke at any time, the test is failed. The person being retested must repeat the entire sensitivity check and fit test procedure.
+
+(7) Each test subject passing the irritant smoke test without evidence of a response (involuntary cough, irritation) shall be given a second sensitivity screening check, with the smoke from the same smoke tube used during the fit test, once the respirator has been removed, to determine whether he/she still reacts to the smoke. Failure to evoke a response shall void the fit test.
+
+(8) If a response is produced during this second sensitivity check, then the fit test is passed.
+
+The following quantitative fit testing procedures have been demonstrated to be acceptable: Quantitative fit testing using a non-hazardous test aerosol (such as corn oil, polyethylene glycol 400 [PEG 400], di-2-ethyl hexyl sebacate [DEHS], or sodium chloride) generated in a test chamber, and employing instrumentation to quantify the fit of the respirator; Quantitative fit testing using ambient aerosol as the test agent and appropriate instrumentation (condensation nuclei counter) to quantify the respirator fit; Quantitative fit testing using controlled negative pressure and appropriate instrumentation to measure the volumetric leak rate of a facepiece to quantify the respirator fit.
+
+(a) The employer shall ensure that persons administering QNFT are able to calibrate equipment and perform tests properly, recognize invalid tests, calculate fit factors properly and ensure that test equipment is in proper working order.
+
+(b) The employer shall ensure that QNFT equipment is kept clean, and is maintained and calibrated according to the manufacturer's instructions so as to operate at the parameters for which it was designed.
+
+(a) Apparatus.
+
+(1) Instrumentation. Aerosol generation, dilution, and measurement systems using particulates (corn oil, polyethylene glycol 400 [PEG 400], di-2-ethyl hexyl sebacate [DEHS] or sodium chloride) as test aerosols shall be used for quantitative fit testing.
+
+(2) Test chamber. The test chamber shall be large enough to permit all test subjects to perform freely all required exercises without disturbing the test agent concentration or the measurement apparatus. The test chamber shall be equipped and constructed so that the test agent is effectively isolated from the ambient air, yet uniform in concentration throughout the chamber.
+
+(3) When testing air-purifying respirators, the normal filter or cartridge element shall be replaced with a high efficiency particulate air (HEPA) or P100 series filter supplied by the same manufacturer.
+
+(4) The sampling instrument shall be selected so that a computer record or strip chart record may be made of the test showing the rise and fall of the test agent concentration with each inspiration and expiration at fit factors of at least 2,000. Integrators or computers that integrate the amount of test agent penetration leakage into the respirator for each exercise may be used provided a record of the readings is made.
+
+(5) The combination of substitute air-purifying elements, test agent and test agent concentration shall be such that the test subject is not exposed in excess of an established exposure limit for the test agent at any time during the testing process, based upon the length of the exposure and the exposure limit duration.
+
+(6) The sampling port on the test specimen respirator shall be placed and constructed so that no leakage occurs around the port (e.g., where the respirator is probed), a free air flow is allowed into the sampling line at all times, and there is no interference with the fit or performance of the respirator. The in-mask sampling device (probe) shall be designed and used so that the air sample is drawn from the breathing zone of the test subject, midway between the nose and mouth and with the probe extending into the facepiece cavity at least
+1/4 inch.
+
+(7) The test setup shall permit the person administering the test to observe the test subject inside the chamber during the test.
+
+(8) The equipment generating the test atmosphere shall maintain the concentration of test agent constant to within a 10 percent variation for the duration of the test.
+
+(9) The time lag (interval between an event and the recording of the event on the strip chart or computer or integrator) shall be kept to a minimum. There shall be a clear association between the occurrence of an event and its being recorded.
+
+(10) The sampling line tubing for the test chamber atmosphere and for the respirator sampling port shall be of equal diameter and of the same material. The length of the two lines shall be equal.
+
+(11) The exhaust flow from the test chamber shall pass through an appropriate filter (i.e., high efficiency particulate filter) before release.
+
+(12) When sodium chloride aerosol is used, the relative humidity inside the test chamber shall not exceed 50 percent.
+
+(13) The limitations of instrument detection shall be taken into account when determining the fit factor.
+
+(14) Test respirators shall be maintained in proper working order and be inspected regularly for deficiencies such as cracks or missing valves and gaskets.
+
+(b) Procedural Requirements.
+
+(1) When performing the initial user seal check using a positive or negative pressure check, the sampling line shall be crimped closed in order to avoid air pressure leakage during either of these pressure checks.
+
+(2) The use of an abbreviated screening QLFT test is optional. Such a test may be utilized in order to quickly identify poor fitting respirators that passed the positive and/or negative pressure test and reduce the amount of QNFT time. The use of the CNC QNFT instrument in the count mode is another optional method to obtain a quick estimate of fit and eliminate poor fitting respirators before going on to perform a full QNFT.
+
+(3) A reasonably stable test agent concentration shall be measured in the test chamber prior to testing. For canopy or shower curtain types of test units, the determination of the test agent's stability may be established after the test subject has entered the test environment.
+
+(4) Immediately after the subject enters the test chamber, the test agent concentration inside the respirator shall be measured to ensure that the peak penetration does not exceed 5 percent for a half mask or 1 percent for a full facepiece respirator.
+
+(5) A stable test agent concentration shall be obtained prior to the actual start of testing.
+
+(6) Respirator restraining straps shall not be over-tightened for testing. The straps shall be adjusted by the wearer without assistance from other persons to give a reasonably comfortable fit typical of normal use. The respirator shall not be adjusted once the fit test exercises begin.
+
+(7) The test shall be terminated whenever any single peak penetration exceeds 5 percent for half masks and 1 percent for full facepiece respirators. The test subject shall be refitted and retested.
+
+(8) Calculation of fit factors.
+
+(i) The fit factor shall be determined for the quantitative fit test by taking the ratio of the average chamber concentration to the concentration measured inside the respirator for each test exercise except the grimace exercise.
+
+(ii) The average test chamber concentration shall be calculated as the arithmetic average of the concentration measured before and after each test (i.e., 7 exercises) or the arithmetic average of the concentration measured before and after each exercise or the true average measured continuously during the respirator sample.
+
+(iii) The concentration of the challenge agent inside the respirator shall be determined by one of the following methods:
+
+(A) Average peak penetration method means the method of determining test agent penetration into the respirator utilizing a strip chart recorder, integrator, or computer. The agent penetration is determined by an average of the peak heights on the graph or by computer integration, for each exercise except the grimace exercise. Integrators or computers that calculate the actual test agent penetration into the respirator for each exercise will also be considered to meet the requirements of the average peak penetration method.
+
+(B) Maximum peak penetration method means the method of determining test agent penetration in the respirator as determined by strip chart recordings of the test. The highest peak penetration for a given exercise is taken to be representative of average penetration into the respirator for that exercise.
+
+(C) Integration by calculation of the area under the individual peak for each exercise except the grimace exercise. This includes computerized integration.
+
+(D) The calculation of the overall fit factor using individual exercise fit factors involves first converting the exercise fit factors to penetration values, determining the average, and then converting that result back to a fit factor. This procedure is described in the following equation:
+
+(9) The test subject shall not be permitted to wear a half mask or quarter facepiece respirator unless a minimum fit factor of 100 is obtained, or a full facepiece respirator unless a minimum fit factor of 500 is obtained.
+
+(10) Filters used for quantitative fit testing shall be replaced whenever increased breathing resistance is encountered, or when the test agent has altered the integrity of the filter media.
+
+The ambient aerosol condensation nuclei counter (CNC) quantitative fit testing (PortaCount®) protocol quantitatively fit tests respirators with the use of a probe. The probed respirator is only used for quantitative fit tests. A probed respirator has a special sampling device, installed on the respirator, that allows the probe to sample the air from inside the mask. A probed respirator is required for each make, style, model, and size that the employer uses and can be obtained from the respirator manufacturer or distributor. The primary CNC instrument manufacturer, TSI Incorporated, also provides probe attachments (TSI mask sampling adapters) that permit fit testing in an employee's own respirator. A minimum fit factor pass level of at least 100 is necessary for a half-mask respirator (elastomeric or filtering facepiece), and a minimum fit factor pass level of at least 500 is required for a full-facepiece elastomeric respirator. The entire screening and testing procedure shall be explained to the test subject prior to the conduct of the screening test.
+
+(a) PortaCount® Fit Test Requirements. (1) Check the respirator to make sure the sampling probe and line are properly attached to the facepiece and that the respirator is fitted with a particulate filter capable of preventing significant penetration by the ambient particles used for the fit test (e.g., NIOSH 42 CFR 84 series 100, series 99, or series 95 particulate filter) per manufacturer's instruction.
+
+(2) Instruct the person to be tested to don the respirator for five minutes before the fit test starts. This purges the ambient particles trapped inside the respirator and permits the wearer to make certain the respirator is comfortable. This individual shall already have been trained on how to wear the respirator properly.
+
+(3) Check the following conditions for the adequacy of the respirator fit: Chin properly placed; Adequate strap tension, not overly tightened; Fit across nose bridge; Respirator of proper size to span distance from nose to chin; Tendency of the respirator to slip; Self-observation in a mirror to evaluate fit and respirator position.
+
+(4) Have the person wearing the respirator do a user seal check. If leakage is detected, determine the cause. If leakage is from a poorly fitting facepiece, try another size of the same model respirator, or another model of respirator.
+
+(5) Follow the manufacturer's instructions for operating the Portacount® and proceed with the test.
+
+(6) The test subject shall be instructed to perform the exercises in section I. A. 14. of this appendix.
+
+(7) After the test exercises, the test subject shall be questioned by the test conductor regarding the comfort of the respirator upon completion of the protocol. If it has become unacceptable, another model of respirator shall be tried.
+
+(b) PortaCount® Test Instrument.
+
+(1) The PortaCount® will automatically stop and calculate the overall fit factor for the entire set of exercises. The overall fit factor is what counts. The Pass or Fail message will indicate whether or not the test was successful. If the test was a Pass, the fit test is over.
+
+(2) Since the pass or fail criterion of the PortaCount® is user programmable, the test operator shall ensure that the pass or fail criterion meet the requirements for minimum respirator performance in this Appendix.
+
+(3) A record of the test needs to be kept on file, assuming the fit test was successful. The record must contain the test subject's name; overall fit factor; make, model, style, and size of respirator used; and date tested.
+
+(a) When administering this protocol to test subjects, employers shall comply with the requirements specified in Part I.C.3 of this appendix (ambient aerosol condensation nuclei counter (CNC) quantitative fit testing protocol), except they shall use the test exercises described below in paragraph (b) of this protocol instead of the test exercises specified in section I.C.3(a)(6) of this appendix.
+
+(b) Employers shall ensure that each test subject being fit tested using this protocol follows the exercise and duration procedures, including the order of administration, described in Table A-1 of this appendix.
+
+Table A-1— Modified Ambient Aerosal CNC Quantitative Fit Testing Protocol for Full Facepiece and Half-Mask Elastomeric Respirators
+
+(a) When administering this protocol to test subjects, employers shall comply with the requirements specified in Part I.C.3 of this appendix (ambient aerosol condensation nuclei counter (CNC) quantitative fit testing protocol), except they shall use the test exercises described below in paragraph (b) of this protocol instead of the test exercises specified in section I.C.3(a)(6) of this appendix.
+
+(b) Employers shall ensure that each test subject being fit tested using this protocol follows the exercise and duration procedures, including the order of administration, described in Table A-2 of this appendix.
+
+Table A-2— Modified Ambient Aerosal CNC Quantitative Fit Testing Protocol for Filtering Facepiece Respirators
+
+The CNP protocol provides an alternative to aerosol fit test methods. The CNP fit test method technology is based on exhausting air from a temporarily sealed respirator facepiece to generate and then maintain a constant negative pressure inside the facepiece. The rate of air exhaust is controlled so that a constant negative pressure is maintained in the respirator during the fit test. The level of pressure is selected to replicate the mean inspiratory pressure that causes leakage into the respirator under normal use conditions. With pressure held constant, air flow out of the respirator is equal to air flow into the respirator. Therefore, measurement of the exhaust stream that is required to hold the pressure in the temporarily sealed respirator constant yields a direct measure of leakage air flow into the respirator. The CNP fit test method measures leak rates through the facepiece as a method for determining the facepiece fit for negative pressure respirators. The CNP instrument manufacturer Occupational Health Dynamics of Birmingham, Alabama also provides attachments (sampling manifolds) that replace the filter cartridges to permit fit testing in an employee's own respirator. To perform the test, the test subject closes his or her mouth and holds his/her breath, after which an air pump removes air from the respirator facepiece at a pre-selected constant pressure. The facepiece fit is expressed as the leak rate through the facepiece, expressed as milliliters per minute. The quality and validity of the CNP fit tests are determined by the degree to which the in-mask pressure tracks the test pressure during the system measurement time of approximately five seconds. Instantaneous feedback in the form of a real-time pressure trace of the in-mask pressure is provided and used to determine test validity and quality. A minimum fit factor pass level of 100 is necessary for a half-mask respirator and a minimum fit factor of at least 500 is required for a full facepiece respirator. The entire screening and testing procedure shall be explained to the test subject prior to the conduct of the screening test.
+
+(a) CNP Fit Test Requirements.
+
+(1) The instrument shall have a non-adjustable test pressure of 15.0 mm water pressure.
+
+(2) The CNP system defaults selected for test pressure shall be set at −15 mm of water (-0.58 inches of water) and the modeled inspiratory flow rate shall be 53.8 liters per minute for performing fit tests.
+
+CNP systems have built-in capability to conduct fit testing that is specific to unique work rate, mask, and gender situations that might apply in a specific workplace. Use of system default values, which were selected to represent respirator wear with medium cartridge resistance at a low-moderate work rate, will allow inter-test comparison of the respirator fit.)
+
+(3) The individual who conducts the CNP fit testing shall be thoroughly trained to perform the test.
+
+(4) The respirator filter or cartridge needs to be replaced with the CNP test manifold. The inhalation valve downstream from the manifold either needs to be temporarily removed or propped open.
+
+(5) The employer must train the test subject to hold his or her breath for at least 10 seconds.
+
+(6) The test subject must don the test respirator without any assistance from the test administrator who is conducting the CNP fit test. The respirator must not be adjusted once the fit-test exercises begin. Any adjustment voids the test, and the test subject must repeat the fit test.
+
+(7) The QNFT protocol shall be followed according to section I. C. 1. of this appendix with an exception for the CNP test exercises.
+
+(b) CNP Test Exercises.
+
+(1) Normal breathing. In a normal standing position, without talking, the subject shall breathe normally for 1 minute. After the normal breathing exercise, the subject needs to hold head straight ahead and hold his or her breath for 10 seconds during the test measurement.
+
+(2) Deep breathing. In a normal standing position, the subject shall breathe slowly and deeply for 1 minute, being careful not to hyperventilate. After the deep breathing exercise, the subject shall hold his or her head straight ahead and hold his or her breath for 10 seconds during test measurement.
+
+(3) Turning head side to side. Standing in place, the subject shall slowly turn his or her head from side to side between the extreme positions on each side for 1 minute. The head shall be held at each extreme momentarily so the subject can inhale at each side. After the turning head side to side exercise, the subject needs to hold head full left and hold his or her breath for 10 seconds during test measurement. Next, the subject needs to hold head full right and hold his or her breath for 10 seconds during test measurement.
+
+(4) Moving head up and down. Standing in place, the subject shall slowly move his or her head up and down for 1 minute. The subject shall be instructed to inhale in the up position (i.e., when looking toward the ceiling). After the moving head up and down exercise, the subject shall hold his or her head full up and hold his or her breath for 10 seconds during test measurement. Next, the subject shall hold his or her head full down and hold his or her breath for 10 seconds during test measurement.
+
+(5) Talking. The subject shall talk out loud slowly and loud enough so as to be heard clearly by the test conductor. The subject can read from a prepared text such as the Rainbow Passage, count backward from 100, or recite a memorized poem or song for 1 minute. After the talking exercise, the subject shall hold his or her head straight ahead and hold his or her breath for 10 seconds during the test measurement.
+
+(6) Grimace. The test subject shall grimace by smiling or frowning for 15 seconds.
+
+(7) Bending Over. The test subject shall bend at the waist as if he or she were to touch his or her toes for 1 minute. Jogging in place shall be substituted for this exercise in those test environments such as shroud-type QNFT units that prohibit bending at the waist. After the bending over exercise, the subject shall hold his or her head straight ahead and hold his or her breath for 10 seconds during the test measurement.
+
+(8) Normal Breathing. The test subject shall remove and re-don the respirator within a one-minute period. Then, in a normal standing position, without talking, the subject shall breathe normally for 1 minute. After the normal breathing exercise, the subject shall hold his or her head straight ahead and hold his or her breath for 10 seconds during the test measurement. After the test exercises, the test subject shall be questioned by the test conductor regarding the comfort of the respirator upon completion of the protocol. If it has become unacceptable, another model of a respirator shall be tried.
+
+(c) CNP Test Instrument.
+
+(1) The test instrument must have an effective audio-warning device, or a visual-warning device in the form of a screen tracing, that indicates when the test subject fails to hold his or her breath during the test. The test must be terminated and restarted from the beginning when the test subject fails to hold his or her breath during the test. The test subject then may be refitted and retested.
+
+(2) A record of the test shall be kept on file, assuming the fit test was successful. The record must contain the test subject's name; overall fit factor; make, model, style and size of respirator used; and date tested.
+
+(a) When administering this protocol to test subjects, employers must comply with the requirements specified in paragraphs (a) and (c) of part I.C.6 of this appendix (“Controlled negative pressure (CNP) quantitative fit testing protocol,”) as well as use the test exercises described below in paragraph (b) of this protocol instead of the test exercises specified in paragraph (b) of part I.C.6 of this appendix.
+
+(b) Employers must ensure that each test subject being fit tested using this protocol follows the exercise and measurement procedures, including the order of administration described in Table A-3 of this appendix.
+
+Table A-3—CNP REDON Quantitative Fit Testing Protocol
+
+(c) After completing the test exercises, the test administrator must question each test subject regarding the comfort of the respirator. When a test subject states that the respirator is unacceptable, the employer must ensure that the test administrator repeats the protocol using another respirator model.
+
+(d) Employers must determine the overall fit factor for each test subject by calculating the harmonic mean of the fit testing exercises as follows:
+
+A. Any person may submit to OSHA an application for approval of a new fit test protocol. If the application meets the following criteria, OSHA will initiate a rulemaking proceeding under section 6(b)(7) of the OSH Act to determine whether to list the new protocol as an approved protocol in this appendix A.
+
+B. The application must include a detailed description of the proposed new fit test protocol. This application must be supported by either:
+
+1. A test report prepared by an independent government research laboratory (e.g., Lawrence Livermore National Laboratory, Los Alamos National Laboratory, the National Institute for Standards and Technology) stating that the laboratory has tested the protocol and had found it to be accurate and reliable; or
+
+2. An article that has been published in a peer-reviewed industrial hygiene journal describing the protocol and explaining how test data support the protocol's accuracy and reliability.
+
+C. If OSHA determines that additional information is required before the Agency commences a rulemaking proceeding under this section, OSHA will so notify the applicant and afford the applicant the opportunity to submit the supplemental information. Initiation of a rulemaking proceeding will be deferred until OSHA has received and evaluated the supplemental information.
+
+The individual who uses a tight-fitting respirator is to perform a user seal check to ensure that an adequate seal is achieved each time the respirator is put on. Either the positive and negative pressure checks listed in this appendix, or the respirator manufacturer's recommended user seal check method shall be used. User seal checks are not substitutes for qualitative or quantitative fit tests.
+
+A. Positive pressure check. Close off the exhalation valve and exhale gently into the facepiece. The face fit is considered satisfactory if a slight positive pressure can be built up inside the facepiece without any evidence of outward leakage of air at the seal. For most respirators this method of leak testing requires the wearer to first remove the exhalation valve cover before closing off the exhalation valve and then carefully replacing it after the test.
+
+B. Negative pressure check. Close off the inlet opening of the canister or cartridge(s) by covering with the palm of the hand(s) or by replacing the filter seal(s), inhale gently so that the facepiece collapses slightly, and hold the breath for ten seconds. The design of the inlet opening of some cartridges cannot be effectively covered with the palm of the hand. The test can be performed by covering the inlet opening of the cartridge with a thin latex or nitrile glove. If the facepiece remains in its slightly collapsed condition and no inward leakage of air is detected, the tightness of the respirator is considered satisfactory.
+
+The respirator manufacturer's recommended procedures for performing a user seal check may be used instead of the positive and/or negative pressure check procedures provided that the employer demonstrates that the manufacturer's procedures are equally effective.
+
+These procedures are provided for employer use when cleaning respirators. They are general in nature, and the employer as an alternative may use the cleaning recommendations provided by the manufacturer of the respirators used by their employees, provided such procedures are as effective as those listed here in appendix B-2. Equivalent effectiveness simply means that the procedures used must accomplish the objectives set forth in appendix B-2, i.e., must ensure that the respirator is properly cleaned and disinfected in a manner that prevents damage to the respirator and does not cause harm to the user.
+
+A. Remove filters, cartridges, or canisters. Disassemble facepieces by removing speaking diaphragms, demand and pressure-demand valve assemblies, hoses, or any components recommended by the manufacturer. Discard or repair any defective parts.
+
+B. Wash components in warm (43 °C [110 °F] maximum) water with a mild detergent or with a cleaner recommended by the manufacturer. A stiff bristle (not wire) brush may be used to facilitate the removal of dirt.
+
+C. Rinse components thoroughly in clean, warm (43 °C [110 °F] maximum), preferably running water. Drain.
+
+D. When the cleaner used does not contain a disinfecting agent, respirator components should be immersed for two minutes in one of the following:
+
+1. Hypochlorite solution (50 ppm of chlorine) made by adding approximately one milliliter of laundry bleach to one liter of water at 43 °C (110 °F); or,
+
+2. Aqueous solution of iodine (50 ppm iodine) made by adding approximately 0.8 milliliters of tincture of iodine (6-8 grams ammonium and/or potassium iodide/100 cc of 45% alcohol) to one liter of water at 43 °C (110 °F); or,
+
+3. Other commercially available cleansers of equivalent disinfectant quality when used as directed, if their use is recommended or approved by the respirator manufacturer.
+
+E. Rinse components thoroughly in clean, warm (43 °C [110 °F] maximum), preferably running water. Drain. The importance of thorough rinsing cannot be overemphasized. Detergents or disinfectants that dry on facepieces may result in dermatitis. In addition, some disinfectants may cause deterioration of rubber or corrosion of metal parts if not completely removed.
+
+F. Components should be hand-dried with a clean lint-free cloth or air-dried.
+
+G. Reassemble facepiece, replacing filters, cartridges, and canisters where necessary.
+
+H. Test the respirator to ensure that all components work properly.
+
+To the employer: Answers to questions in Section 1, and to question 9 in Section 2 of part A, do not require a medical examination.
+
+To the employee:
+
+Your employer must allow you to answer this questionnaire during normal working hours, or at a time and place that is convenient to you. To maintain your confidentiality, your employer or supervisor must not look at or review your answers, and your employer must tell you how to deliver or send this questionnaire to the health care professional who will review it.
+
+Part A. Section 1. (Mandatory) The following information must be provided by every employee who has been selected to use any type of respirator (please print).
+
+Part A. Section 2. (Mandatory) Questions 1 through 9 below must be answered by every employee who has been selected to use any type of respirator (please circle “yes” or “no”).
+
+d. Seizures: Yes/No
+
+Questions 10 to 15 below must be answered by every employee who has been selected to use either a full-facepiece respirator or a self-contained breathing apparatus (SCBA). For employees who have been selected to use other types of respirators, answering these questions is voluntary.
+
+Part B Any of the following questions, and other questions not listed, may be added to the questionnaire at the discretion of the health care professional who will review the questionnaire.
+
+Examples of a light work effort are sitting while writing, typing, drafting, or performing light assembly work; or standing while operating a drill press (1-3 lbs.) or controlling machines.
+
+Examples of moderate work effort are sitting while nailing or filing; driving a truck or bus in urban traffic; standing while drilling, nailing, performing assembly work, or transferring a moderate load (about 35 lbs.) at trunk level; walking on a level surface about 2 mph or down a 5-degree grade about 3 mph; or pushing a wheelbarrow with a heavy load (about 100 lbs.) on a level surface.
+
+Examples of heavy work are lifting a heavy load (about 50 lbs.) from the floor to your waist or shoulder; working on a loading dock; shoveling; standing while bricklaying or chipping castings; walking up an 8-degree grade about 2 mph; climbing stairs with a heavy load (about 50 lbs.).
+
+Respirators are an effective method of protection against designated hazards when properly selected and worn. Respirator use is encouraged, even when exposures are below the exposure limit, to provide an additional level of comfort and protection for workers. However, if a respirator is used improperly or not kept clean, the respirator itself can become a hazard to the worker. Sometimes, workers may wear respirators to avoid exposures to hazards, even if the amount of hazardous substance does not exceed the limits set by OSHA standards. If your employer provides respirators for your voluntary use, or if you provide your own respirator, you need to take certain precautions to be sure that the respirator itself does not present a hazard.
+
+You should do the following:
+
+1. Read and heed all instructions provided by the manufacturer on use, maintenance, cleaning and care, and warnings regarding the respirators limitations.
+
+2. Choose respirators certified for use to protect against the contaminant of concern. NIOSH, the National Institute for Occupational Safety and Health of the U.S. Department of Health and Human Services, certifies respirators. A label or statement of certification should appear on the respirator or respirator packaging. It will tell you what the respirator is designed for and how much it will protect you.
+
+3. Do not wear your respirator into atmospheres containing contaminants for which your respirator is not designed to protect against. For example, a respirator designed to filter dust particles will not protect you against gases, vapors, or very small solid particles of fumes or smoke.
+
+4. Keep track of your respirator so that you do not mistakenly use someone else's respirator.
+
+---
+
+§ 1910.135 Head protection.
+
+(a) General requirements. (1) The employer shall ensure that each affected employee wears a protective helmet when working in areas where there is a potential for injury to the head from falling objects.
+
+(2) The employer shall ensure that a protective helmet designed to reduce electrical shock hazard is worn by each such affected employee when near exposed electrical conductors which could contact the head.
+
+(b) Criteria for head protection. (1) Head protection must comply with any of the following consensus standards:
+
+(i) American National Standards Institute (ANSI) Z89.1-2009, “American National Standard for Industrial Head Protection,” incorporated by reference in § 1910.6;
+
+(ii) American National Standards Institute (ANSI) Z89.1-2003, “American National Standard for Industrial Head Protection,” incorporated by reference in § 1910.6; or
+
+(iii) American National Standards Institute (ANSI) Z89.1-1997, “American National Standard for Personnel Protection—Protective Headwear for Industrial Workers—Requirements,” incorporated by reference in § 1910.6.
+
+(2) Head protection devices that the employer demonstrates are at least as effective as head protection devices that are constructed in accordance with one of the above consensus standards will be deemed to be in compliance with the requirements of this section.
+
+---
+
+§ 1910.136 Foot protection.
+
+(a) General requirements. The employer shall ensure that each affected employee uses protective footwear when working in areas where there is a danger of foot injuries due to falling or rolling objects, or objects piercing the sole, or when the use of protective footwear will protect the affected employee from an electrical hazard, such as a static-discharge or electric-shock hazard, that remains after the employer takes other necessary protective measures.
+
+(b) Criteria for protective footwear. (1) Protective footwear must comply with any of the following consensus standards:
+
+(i) ASTM F-2412-2005, “Standard Test Methods for Foot Protection,” and ASTM F-2413-2005, “Standard Specification for Performance Requirements for Protective Footwear,” which are incorporated by reference in § 1910.6;
+
+(ii) ANSI Z41-1999, “American National Standard for Personal Protection—Protective Footwear,” which is incorporated by reference in § 1910.6; or
+
+(iii) ANSI Z41-1991, “American National Standard for Personal Protection—Protective Footwear,” which is incorporated by reference in § 1910.6.
+
+(2) Protective footwear that the employer demonstrates is at least as effective as protective footwear that is constructed in accordance with one of the above consensus standards will be deemed to be in compliance with the requirements of this section.
+
+---
+
+§ 1910.137 Electrical protective equipment.
+
+(a) Design requirements for specific types of electrical protective equipment. Rubber insulating blankets, rubber insulating matting, rubber insulating covers, rubber insulating line hose, rubber insulating gloves, and rubber insulating sleeves shall meet the following requirements:
+
+(1) Manufacture and marking of rubber insulating equipment. (i) Blankets, gloves, and sleeves shall be produced by a seamless process.
+
+(ii) Each item shall be clearly marked as follows:
+
+(A) Class 00 equipment shall be marked Class 00.
+
+(B) Class 0 equipment shall be marked Class 0.
+
+(C) Class 1 equipment shall be marked Class 1.
+
+(D) Class 2 equipment shall be marked Class 2.
+
+(E) Class 3 equipment shall be marked Class 3.
+
+(F) Class 4 equipment shall be marked Class 4.
+
+(G) Nonozone-resistant equipment shall be marked Type I.
+
+(H) Ozone-resistant equipment shall be marked Type II.
+
+(I) Other relevant markings, such as the manufacturer's identification and the size of the equipment, may also be provided.
+
+(iii) Markings shall be nonconducting and shall be applied in such a manner as not to impair the insulating qualities of the equipment.
+
+(iv) Markings on gloves shall be confined to the cuff portion of the glove.
+
+(2) Electrical requirements. (i) Equipment shall be capable of withstanding the ac proof-test voltage specified in Table I-1 or the dc proof-test voltage specified in Table I-2.
+
+(A) The proof test shall reliably indicate that the equipment can withstand the voltage involved.
+
+(B) The test voltage shall be applied continuously for 3 minutes for equipment other than matting and shall be applied continuously for 1 minute for matting.
+
+(C) Gloves shall also be capable of separately withstanding the ac proof-test voltage specified in Table I-1 after a 16-hour water soak. (See the note following paragraph (a)(3)(ii)(B) of this section.)
+
+(ii) When the ac proof test is used on gloves, the 60-hertz proof-test current may not exceed the values specified in Table I-1 at any time during the test period.
+
+(A) If the ac proof test is made at a frequency other than 60 hertz, the permissible proof-test current shall be computed from the direct ratio of the frequencies.
+
+(B) For the test, gloves (right side out) shall be filled with tap water and immersed in water to a depth that is in accordance with Table I-3. Water shall be added to or removed from the glove, as necessary, so that the water level is the same inside and outside the glove.
+
+(C) After the 16-hour water soak specified in paragraph (a)(2)(i)(C) of this section, the 60-hertz proof-test current may not exceed the values given in Table I-1 by more than 2 milliamperes.
+
+(iii) Equipment that has been subjected to a minimum breakdown voltage test may not be used for electrical protection. (See the note following paragraph (a)(3)(ii)(B) of this section.)
+
+(iv) Material used for Type II insulating equipment shall be capable of withstanding an ozone test, with no visible effects. The ozone test shall reliably indicate that the material will resist ozone exposure in actual use. Any visible signs of ozone deterioration of the material, such as checking, cracking, breaks, or pitting, is evidence of failure to meet the requirements for ozone-resistant material. (See the note following paragraph (a)(3)(ii)(B) of this section.)
+
+(3) Workmanship and finish. (i) Equipment shall be free of physical irregularities that can adversely affect the insulating properties of the equipment and that can be detected by the tests or inspections required under this section.
+
+(ii) Surface irregularities that may be present on all rubber goods (because of imperfections on forms or molds or because of inherent difficulties in the manufacturing process) and that may appear as indentations, protuberances, or imbedded foreign material are acceptable under the following conditions:
+
+(A) The indentation or protuberance blends into a smooth slope when the material is stretched.
+
+(B) Foreign material remains in place when the insulating material is folded and stretches with the insulating material surrounding it.
+
+Rubber insulating equipment meeting the following national consensus standards is deemed to be in compliance with the performance requirements of paragraph (a) of this section:
+
+American Society for Testing and Materials (ASTM) D120-09, Standard Specification for Rubber Insulating Gloves.
+
+ASTM D178-01 (2010), Standard Specification for Rubber Insulating Matting.
+
+ASTM D1048-12, Standard Specification for Rubber Insulating Blankets.
+
+ASTM D1049-98 (2010), Standard Specification for Rubber Insulating Covers.
+
+ASTM D1050-05 (2011), Standard Specification for Rubber Insulating Line Hose.
+
+ASTM D1051-08, Standard Specification for Rubber Insulating Sleeves.
+
+The preceding standards also contain specifications for conducting the various tests required in paragraph (a) of this section. For example, the ac and dc proof tests, the breakdown test, the water-soak procedure, and the ozone test mentioned in this paragraph are described in detail in these ASTM standards.
+
+ASTM F1236-96 (2012), Standard Guide for Visual Inspection of Electrical Protective Rubber Products, presents methods and techniques for the visual inspection of electrical protective equipment made of rubber. This guide also contains descriptions and photographs of irregularities that can be found in this equipment.
+
+ASTM F819-10, Standard Terminology Relating to Electrical Protective Equipment for Workers, includes definitions of terms relating to the electrical protective equipment covered under this section.
+
+(b) Design requirements for other types of electrical protective equipment. The following requirements apply to the design and manufacture of electrical protective equipment that is not covered by paragraph (a) of this section:
+
+(1) Voltage withstand. Insulating equipment used for the protection of employees shall be capable of withstanding, without failure, the voltages that may be imposed upon it.
+
+These voltages include transient overvoltages, such as switching surges, as well as nominal line voltage. See appendix B to § 1910.269 for a discussion of transient overvoltages on electric power transmission and distribution systems. See IEEE Std 516-2009, IEEE Guide for Maintenance Methods on Energized Power Lines, for methods of determining the magnitude of transient overvoltages on an electrical system and for a discussion comparing the ability of insulation equipment to withstand a transient overvoltage based on its ability to withstand ac voltage testing.
+
+(2) Equipment current. (i) Protective equipment used for the primary insulation of employees from energized circuit parts shall be capable of passing a current test when subjected to the highest nominal voltage on which the equipment is to be used.
+
+(ii) When insulating equipment is tested in accordance with paragraph (b)(2)(i) of this section, the equipment current may not exceed 1 microampere per kilovolt of phase-to-phase applied voltage.
+
+This paragraph applies to equipment that provides primary insulation of employees from energized parts. It does not apply to equipment used for secondary insulation or equipment used for brush contact only.
+
+For ac excitation, this current consists of three components: Capacitive current because of the dielectric properties of the insulating material itself; conduction current through the volume of the insulating equipment; and leakage current along the surface of the tool or equipment. The conduction current is normally negligible. For clean, dry insulating equipment, the leakage current is small, and the capacitive current predominates.
+
+Plastic guard equipment is deemed to conform to the performance requirements of paragraph (b) of this section if it meets, and is used in accordance with, ASTM F712-06 (2011), Standard Test Methods and Specifications for Electrically Insulating Plastic Guard Equipment for Protection of Workers.
+
+(c) In-service care and use of electrical protective equipment—(1) General. Electrical protective equipment shall be maintained in a safe, reliable condition.
+
+(2) Specific requirements. The following specific requirements apply to rubber insulating blankets, rubber insulating covers, rubber insulating line hose, rubber insulating gloves, and rubber insulating sleeves:
+
+(i) Maximum use voltages shall conform to those listed in Table I-4.
+
+(ii) Insulating equipment shall be inspected for damage before each day's use and immediately following any incident that can reasonably be suspected of causing damage. Insulating gloves shall be given an air test, along with the inspection.
+
+ASTM F1236-96 (2012), Standard Guide for Visual Inspection of Electrical Protective Rubber Products, presents methods and techniques for the visual inspection of electrical protective equipment made of rubber. This guide also contains descriptions and photographs of irregularities that can be found in this equipment.
+
+(iii) Insulating equipment with any of the following defects may not be used:
+
+(A) A hole, tear, puncture, or cut;
+
+(B) Ozone cutting or ozone checking (that is, a series of interlacing cracks produced by ozone on rubber under mechanical stress);
+
+(C) An embedded foreign object;
+
+(D) Any of the following texture changes: swelling, softening, hardening, or becoming sticky or inelastic.
+
+(E) Any other defect that damages the insulating properties.
+
+(iv) Insulating equipment found to have other defects that might affect its insulating properties shall be removed from service and returned for testing under paragraphs (c)(2)(viii) and (c)(2)(ix) of this section.
+
+(v) Insulating equipment shall be cleaned as needed to remove foreign substances.
+
+(vi) Insulating equipment shall be stored in such a location and in such a manner as to protect it from light, temperature extremes, excessive humidity, ozone, and other damaging substances and conditions.
+
+(vii) Protector gloves shall be worn over insulating gloves, except as follows:
+
+(A) Protector gloves need not be used with Class 0 gloves, under limited-use conditions, when small equipment and parts manipulation necessitate unusually high finger dexterity.
+
+Persons inspecting rubber insulating gloves used under these conditions need to take extra care in visually examining them. Employees using rubber insulating gloves under these conditions need to take extra care to avoid handling sharp objects.
+
+(B) If the voltage does not exceed 250 volts, ac, or 375 volts, dc, protector gloves need not be used with Class 00 gloves, under limited-use conditions, when small equipment and parts manipulation necessitate unusually high finger dexterity.
+
+Persons inspecting rubber insulating gloves used under these conditions need to take extra care in visually examining them. Employees using rubber insulating gloves under these conditions need to take extra care to avoid handling sharp objects.
+
+(C) Any other class of glove may be used without protector gloves, under limited-use conditions, when small equipment and parts manipulation necessitate unusually high finger dexterity but only if the employer can demonstrate that the possibility of physical damage to the gloves is small and if the class of glove is one class higher than that required for the voltage involved.
+
+(D) Insulating gloves that have been used without protector gloves may not be reused until they have been tested under the provisions of paragraphs (c)(2)(viii) and (c)(2)(ix) of this section.
+
+(viii) Electrical protective equipment shall be subjected to periodic electrical tests. Test voltages and the maximum intervals between tests shall be in accordance with Table I-4 and Table I-5.
+
+(ix) The test method used under paragraphs (c)(2)(viii) and (c)(2)(xi) of this section shall reliably indicate whether the insulating equipment can withstand the voltages involved.
+
+Standard electrical test methods considered as meeting this paragraph are given in the following national consensus standards:
+
+ASTM D120-09, Standard Specification for Rubber Insulating Gloves.
+
+ASTM D178-01 (2010), Standard Specification for Rubber Insulating Matting.
+
+ASTM D1048-12, Standard Specification for Rubber Insulating Blankets.
+
+ASTM D1049-98 (2010), Standard Specification for Rubber Insulating Covers.
+
+ASTM D1050-05 (2011), Standard Specification for Rubber Insulating Line Hose.
+
+ASTM D1051-08, Standard Specification for Rubber Insulating Sleeves.
+
+ASTM F478-09, Standard Specification for In-Service Care of Insulating Line Hose and Covers.
+
+ASTM F479-06 (2011), Standard Specification for In-Service Care of Insulating Blankets.
+
+ASTM F496-08, Standard Specification for In-Service Care of Insulating Gloves and Sleeves.
+
+(x) Insulating equipment failing to pass inspections or electrical tests may not be used by employees, except as follows:
+
+(A) Rubber insulating line hose may be used in shorter lengths with the defective portion cut off.
+
+(B) Rubber insulating blankets may be salvaged by severing the defective area from the undamaged portion of the blanket. The resulting undamaged area may not be smaller than 560 millimeters by 560 millimeters (22 inches by 22 inches) for Class 1, 2, 3, and 4 blankets.
+
+(C) Rubber insulating blankets may be repaired using a compatible patch that results in physical and electrical properties equal to those of the blanket.
+
+(D) Rubber insulating gloves and sleeves with minor physical defects, such as small cuts, tears, or punctures, may be repaired by the application of a compatible patch. Also, rubber insulating gloves and sleeves with minor surface blemishes may be repaired with a compatible liquid compound. The repaired area shall have electrical and physical properties equal to those of the surrounding material. Repairs to gloves are permitted only in the area between the wrist and the reinforced edge of the opening.
+
+(xi) Repaired insulating equipment shall be retested before it may be used by employees.
+
+(xii) The employer shall certify that equipment has been tested in accordance with the requirements of paragraphs (c)(2)(iv), (c)(2)(vii)(D), (c)(2)(viii), (c)(2)(ix), and (c)(2)(xi) of this section. The certification shall identify the equipment that passed the test and the date it was tested and shall be made available upon request to the Assistant Secretary for Occupational Safety and Health and to employees or their authorized representatives.
+
+Marking equipment with, and entering onto logs, the results of the tests and the dates of testing are two acceptable means of meeting the certification requirement.
+
+Table I-1—AC Proof-Test Requirements
+
+Table I-2—DC Proof-Test Requirements
+
+Table I-3—Glove Tests—Water Level 1 2
+
+Table I-4—Rubber Insulating Equipment, Voltage Requirements
+
+Table I-5—Rubber Insulating Equipment, Test Intervals
+
+---
+
+§ 1910.138 Hand protection.
+
+(a) General requirements. Employers shall select and require employees to use appropriate hand protection when employees' hands are exposed to hazards such as those from skin absorption of harmful substances; severe cuts or lacerations; severe abrasions; punctures; chemical burns; thermal burns; and harmful temperature extremes.
+
+(b) Selection. Employers shall base the selection of the appropriate hand protection on an evaluation of the performance characteristics of the hand protection relative to the task(s) to be performed, conditions present, duration of use, and the hazards and potential hazards identified.
+
+§ 1910.139 [Reserved]
+
+---
+
+§ 1910.140 Personal fall protection systems.
+
+(a) Scope and application. This section establishes performance, care, and use criteria for all personal fall protection systems. The employer must ensure that each personal fall protection system used to comply with this part must meet the requirements of this section.
+
+(b) Definitions. The following definitions apply to this section:
+
+Anchorage means a secure point of attachment for equipment such as lifelines, lanyards, or deceleration devices.
+
+Belt terminal means an end attachment of a window cleaner's positioning system used for securing the belt or harness to a window cleaner's belt anchor.
+
+Body belt means a strap with means both for securing about the waist and for attaching to other components such as a lanyard used with positioning systems, travel restraint systems, or ladder safety systems.
+
+Body harness means straps that secure about the employee in a manner to distribute the fall arrest forces over at least the thighs, pelvis, waist, chest, and shoulders, with a means for attaching the harness to other components of a personal fall protection system.
+
+Carabiner means a connector generally comprised of a trapezoidal or oval shaped body with a closed gate or similar arrangement that may be opened to attach another object and, when released, automatically closes to retain the object.
+
+Competent person means a person who is capable of identifying existing and predictable hazards in any personal fall protection system or any component of it, as well as in their application and uses with related equipment, and who has authorization to take prompt, corrective action to eliminate the identified hazards.
+
+Connector means a device used to couple (connect) parts of the fall protection system together.
+
+D-ring means a connector used:
+
+(i) In a harness as an integral attachment element or fall arrest attachment;
+
+(ii) In a lanyard, energy absorber, lifeline, or anchorage connector as an integral connector; or
+
+(iii) In a positioning or travel restraint system as an attachment element.
+
+Deceleration device means any mechanism that serves to dissipate energy during a fall.
+
+Deceleration distance means the vertical distance a falling employee travels from the point at which the deceleration device begins to operate, excluding lifeline elongation and free fall distance, until stopping. It is measured as the distance between the location of an employee's body harness attachment point at the moment of activation (at the onset of fall arrest forces) of the deceleration device during a fall, and the location of that attachment point after the employee comes to a full stop.
+
+Equivalent means alternative designs, equipment, materials, or methods that the employer can demonstrate will provide an equal or greater degree of safety for employees compared to the designs, equipment, materials, or methods specified in the standard.
+
+Free fall means the act of falling before the personal fall arrest system begins to apply force to arrest the fall.
+
+Free fall distance means the vertical displacement of the fall arrest attachment point on the employee's body belt or body harness between onset of the fall and just before the system begins to apply force to arrest the fall. This distance excludes deceleration distance, lifeline and lanyard elongation, but includes any deceleration device slide distance or self-retracting lifeline/lanyard extension before the devices operate and fall arrest forces occur.
+
+Lanyard means a flexible line of rope, wire rope, or strap that generally has a connector at each end for connecting the body belt or body harness to a deceleration device, lifeline, or anchorage.
+
+Lifeline means a component of a personal fall protection system consisting of a flexible line for connection to an anchorage at one end so as to hang vertically (vertical lifeline), or for connection to anchorages at both ends so as to stretch horizontally (horizontal lifeline), and serves as a means for connecting other components of the system to the anchorage.
+
+Personal fall arrest system means a system used to arrest an employee in a fall from a walking-working surface. It consists of a body harness, anchorage, and connector. The means of connection may include a lanyard, deceleration device, lifeline, or a suitable combination of these.
+
+Personal fall protection system means a system (including all components) an employer uses to provide protection from falling or to safely arrest an employee's fall if one occurs. Examples of personal fall protection systems include personal fall arrest systems, positioning systems, and travel restraint systems.
+
+Positioning system (work-positioning system) means a system of equipment and connectors that, when used with a body harness or body belt, allows an employee to be supported on an elevated vertical surface, such as a wall or window sill, and work with both hands free. Positioning systems also are called “positioning system devices” and “work-positioning equipment.”
+
+Qualified describes a person who, by possession of a recognized degree, certificate, or professional standing, or who by extensive knowledge, training, and experience has successfully demonstrated the ability to solve or resolve problems relating to the subject matter, the work, or the project.
+
+Rope grab means a deceleration device that travels on a lifeline and automatically, by friction, engages the lifeline and locks so as to arrest the fall of an employee. A rope grab usually employs the principle of inertial locking, cam/lever locking, or both.
+
+Safety factor means the ratio of the design load and the ultimate strength of the material.
+
+Self-retracting lifeline/lanyard means a deceleration device containing a drum-wound line that can be slowly extracted from, or retracted onto, the drum under slight tension during normal movement by the employee. At the onset of a fall, the device automatically locks the drum and arrests the fall.
+
+Snaphook means a connector comprised of a hook-shaped body with a normally closed gate, or similar arrangement that may be manually opened to permit the hook to receive an object. When released, the snaphook automatically closes to retain the object. Opening a snaphook requires two separate actions. Snaphooks are generally one of two types:
+
+(i) Automatic-locking type (permitted) with a self-closing and self-locking gate that remains closed and locked until intentionally unlocked and opened for connection or disconnection; and
+
+(ii) Non-locking type (prohibited) with a self-closing gate that remains closed, but not locked, until intentionally opened for connection or disconnection.
+
+Travel restraint (tether) line means a rope or wire rope used to transfer forces from a body support to an anchorage or anchorage connector in a travel restraint system.
+
+Travel restraint system means a combination of an anchorage, anchorage connector, lanyard (or other means of connection), and body support that an employer uses to eliminate the possibility of an employee going over the edge of a walking-working surface.
+
+Window cleaner's belt means a positioning belt that consists of a waist belt, an integral terminal runner or strap, and belt terminals.
+
+Window cleaner's belt anchor (window anchor) means specifically designed fall-preventing attachment points permanently affixed to a window frame or to a building part immediately adjacent to the window frame, for direct attachment of the terminal portion of a window cleaner's belt.
+
+Window cleaner's positioning system means a system which consists of a window cleaner's belt secured to window anchors.
+
+Work-positioning system (see Positioning system in this paragraph (b)).
+
+(c) General requirements. The employer must ensure that personal fall protection systems meet the following requirements. Additional requirements for personal fall arrest systems and positioning systems are contained in paragraphs (d) and (e) of this section, respectively.
+
+(1) Connectors must be drop forged, pressed or formed steel, or made of equivalent materials.
+
+(2) Connectors must have a corrosion-resistant finish, and all surfaces and edges must be smooth to prevent damage to interfacing parts of the system.
+
+(3) When vertical lifelines are used, each employee must be attached to a separate lifeline.
+
+(4) Lanyards and vertical lifelines must have a minimum breaking strength of 5,000 pounds (22.2 kN).
+
+(5) Self-retracting lifelines and lanyards that automatically limit free fall distance to 2 feet (0.61 m) or less must have components capable of sustaining a minimum tensile load of 3,000 pounds (13.3 kN) applied to the device with the lifeline or lanyard in the fully extended position.
+
+(6) A competent person or qualified person must inspect each knot in a lanyard or vertical lifeline to ensure that it meets the requirements of paragraphs (c)(4) and (5) of this section before any employee uses the lanyard or lifeline.
+
+(7) D-rings, snaphooks, and carabiners must be capable of sustaining a minimum tensile load of 5,000 pounds (22.2 kN).
+
+(8) D-rings, snaphooks, and carabiners must be proof tested to a minimum tensile load of 3,600 pounds (16 kN) without cracking, breaking, or incurring permanent deformation. The gate strength of snaphooks and carabiners must be capable of withstanding a minimum load of 3,600 pounds (16 kN) without the gate separating from the nose of the snaphook or carabiner body by more than 0.125 inches (3.175 mm).
+
+(9) Snaphooks and carabiners must be the automatic locking type that require at least two separate, consecutive movements to open.
+
+(10) Snaphooks and carabiners must not be connected to any of the following unless they are designed for such connections:
+
+(i) Directly to webbing, rope, or wire rope;
+
+(ii) To each other;
+
+(iii) To a D-ring to which another snaphook, carabiner, or connector is attached;
+
+(iv) To a horizontal life line; or
+
+(v) To any object that is incompatibly shaped or dimensioned in relation to the snaphook or carabiner such that unintentional disengagement could occur when the connected object depresses the snaphook or carabiner gate, allowing the components to separate.
+
+(11) The employer must ensure that each horizontal lifeline:
+
+(i) Is designed, installed, and used under the supervision of a qualified person; and
+
+(ii) Is part of a complete personal fall arrest system that maintains a safety factor of at least two.
+
+(12) Anchorages used to attach to personal fall protection equipment must be independent of any anchorage used to suspend employees or platforms on which employees work. Anchorages used to attach to personal fall protection equipment on mobile work platforms on powered industrial trucks must be attached to an overhead member of the platform, at a point located above and near the center of the platform.
+
+(13) Anchorages, except window cleaners' belt anchors covered by paragraph (e) of this section, must be:
+
+(i) Capable of supporting at least 5,000 pounds (22.2 kN) for each employee attached; or
+
+(ii) Designed, installed, and used, under the supervision of qualified person, as part of a complete personal fall protection system that maintains a safety factor of at least two.
+
+(14) Travel restraint lines must be capable of sustaining a tensile load of at least 5,000 pounds (22.2 kN).
+
+(15) Lifelines must not be made of natural fiber rope. Polypropylene rope must contain an ultraviolet (UV) light inhibitor.
+
+(16) Personal fall protection systems and their components must be used exclusively for employee fall protection and not for any other purpose, such as hoisting equipment or materials.
+
+(17) A personal fall protection system or its components subjected to impact loading must be removed from service immediately and not used again until a competent person inspects the system or components and determines that it is not damaged and safe for use for employee personal fall protection.
+
+(18) Personal fall protection systems must be inspected before initial use during each workshift for mildew, wear, damage, and other deterioration, and defective components must be removed from service.
+
+(19) Ropes, belts, lanyards, and harnesses used for personal fall protection must be compatible with all connectors used.
+
+(20) Ropes, belts, lanyards, lifelines, and harnesses used for personal fall protection must be protected from being cut, abraded, melted, or otherwise damaged.
+
+(21) The employer must provide for prompt rescue of each employee in the event of a fall.
+
+(22) Personal fall protection systems must be worn with the attachment point of the body harness located in the center of the employee's back near shoulder level. The attachment point may be located in the pre-sternal position if the free fall distance is limited to 2 feet (0.6 m) or less.
+
+(d) Personal fall arrest systems—(1) System performance criteria. In addition to the general requirements in paragraph (c) of this section, the employer must ensure that personal fall arrest systems:
+
+(i) Limit the maximum arresting force on the employee to 1,800 pounds (8 kN);
+
+(ii) Bring the employee to a complete stop and limit the maximum deceleration distance the employee travels to 3.5 feet (1.1 m);
+
+(iii) Have sufficient strength to withstand twice the potential impact energy of the employee free falling a distance of 6 feet (1.8 m), or the free fall distance permitted by the system; and
+
+(iv) Sustain the employee within the system/strap configuration without making contact with the employee's neck and chin area.
+
+(v) If the personal fall arrest system meets the criteria and protocols in appendix D of this subpart, and is being used by an employee having a combined body and tool weight of less than 310 pounds (140 kg), the system is considered to be in compliance with the provisions of paragraphs (d)(1)(i) through (iii) of this section. If the system is used by an employee having a combined body and tool weight of 310 pounds (140kg) or more and the employer has appropriately modified the criteria and protocols in appendix D, then the system will be deemed to be in compliance with the requirements of paragraphs (d)(1)(i) through (iii).
+
+(2) System use criteria. The employer must ensure that:
+
+(i) On any horizontal lifeline that may become a vertical lifeline, the device used to connect to the horizontal lifeline is capable of locking in both directions on the lifeline.
+
+(ii) Personal fall arrest systems are rigged in such a manner that the employee cannot free fall more than 6 feet (1.8 m) or contact a lower level. A free fall may be more than 6 feet (1.8 m) provided the employer can demonstrate the manufacturer designed the system to allow a free fall of more than 6 feet and tested the system to ensure a maximum arresting force of 1,800 pounds (8 kN) is not exceeded.
+
+(3) Body belts. Body belts are prohibited as part of a personal fall arrest system.
+
+(e) Positioning systems—(1) System performance requirements. The employer must ensure that each positioning system meets the following requirements:
+
+(i) General. All positioning systems, except window cleaners' positioning systems, are capable of withstanding, without failure, a drop test consisting of a 4-foot (1.2-m) drop of a 250-pound (113-kg) weight;
+
+(ii) Window cleaners' positioning systems. All window cleaners' positioning systems must:
+
+(A) Be capable of withstanding without failure a drop test consisting of a 6-foot (1.8-m) drop of a 250-pound (113-kg) weight; and
+
+(B) Limit the initial arresting force on the falling employee to not more than 2,000 pounds (8.9 kN), with a duration not exceeding 2 milliseconds and any subsequent arresting forces to not more than 1,000 pounds (4.5 kN).
+
+(iii) Positioning systems, including window cleaners' positioning systems, that meet the test methods and procedures in appendix D of this subpart are considered to be in compliance with paragraphs (e)(1)(i) and (ii).
+
+(iv) Lineman's body belt and pole strap systems. Lineman's body belt and pole strap systems must meet the following tests:
+
+(A) A dielectric test of 819.7 volts, AC, per centimeter (25,000 volts per foot) for 3 minutes without visible deterioration;
+
+(B) A leakage test of 98.4 volts, AC, per centimeter (3,000 volts per foot) with a leakage current of no more than 1 mA; and
+
+(C) A flammability test in accordance with Table I-7 of this section.
+
+(2) System use criteria for window cleaners' positioning systems. The employer must ensure that window cleaners' positioning systems meet and are used in accordance with the following:
+
+(i) Window cleaners' belts are designed and constructed so that:
+
+(A) Belt terminals will not pass through their fastenings on the belt or harness if a terminal comes loose from the window anchor; and
+
+(B) The length of the runner from terminal tip to terminal tip is 8 feet (2.44 m) or less;
+
+(ii) Window anchors to which belts are fastened are installed in the side frames or mullions of the window at a point not less than 42 inches (106.7 cm) and not more than 51 inches (129.5 cm) above the window sill;
+
+(iii) Each window anchor is capable of supporting a minimum load of 6,000 pounds (26.5 kN);
+
+(iv) Use of installed window anchors for any purpose other than attaching the window cleaner's belt is prohibited;
+
+(v) A window anchor that has damaged or deteriorated fastenings or supports is removed, or the window anchor head is detached so the anchor cannot be used;
+
+(vi) Rope that has wear or deterioration that affects its strength is not used;
+
+(vii) Both terminals of the window cleaner's belt are attached to separate window anchors during any cleaning operation;
+
+(viii) No employee works on a window sill or ledge on which there is snow, ice, or any other slippery condition, or one that is weakened or rotted;
+
+(ix) No employee works on a window sill or ledge unless:
+
+(A) The window sill or ledge is a minimum of 4 inches (10 cm) wide and slopes no more than 15 degrees below horizontal; or
+
+(B) The 4-inch minimum width of the window sill or ledge is increased 0.4 inches (1 cm) for every degree the sill or ledge slopes beyond 15 degrees, up to a maximum of 30 degrees;
+
+(x) The employee attaches at least one belt terminal to a window anchor before climbing through the window opening, and keeps at least one terminal attached until completely back inside the window opening;
+
+(xi) Except as provided in paragraph (e)(2)(xii) of this section, the employee travels from one window to another by returning inside the window opening and repeating the belt terminal attachment procedure at each window in accordance with paragraph (e)(2)(x) of this section;
+
+(xii) An employee using a window cleaner's positioning system may travel from one window to another while outside of the building, provided:
+
+(A) At least one belt terminal is attached to a window anchor at all times;
+
+(B) The distance between window anchors does not exceed 4 feet (1.2 m) horizontally. The distance between windows may be increased up to 6 feet (1.8 m) horizontally if the window sill or ledge is at least 1 foot (0.31 m) wide and the slope is less than 5 degrees;
+
+(C) The sill or ledge between windows is continuous; and
+
+(D) The width of the window sill or ledge in front of the mullions is at least 6 inches (15.2 cm) wide.
+
+Appendix A to Subpart I of Part 1910—References for Further Information (Non-mandatory)
+
+The documents in appendix A provide information which may be helpful in understanding and implementing the standards in Subpart I.
+
+1. Bureau of Labor Statistics (BLS). “Accidents Involving Eye Injuries.” Report 597, Washington, D.C.: BLS, 1980.
+
+2. Bureau of Labor Statistics (BLS). “Accidents Involving Face Injuries.” Report 604, Washington, D.C.: BLS, 1980.
+
+3. Bureau of Labor Statistics (BLS). “Accidents Involving Head Injuries.” Report 605, Washington, D.C.: BLS, 1980.
+
+4. Bureau of Labor Statistics (BLS). “Accidents Involving Foot Injuries.” Report 626, Washington, D.C.: BLS, 1981.
+
+5. National Safety Council. “Accident Facts”, Annual edition, Chicago, IL: 1981.
+
+6. Bureau of Labor Statistics (BLS). “Occupational Injuries and Illnesses in the United States by Industry,” Annual edition, Washington, D.C.: BLS.
+
+7. National Society to Prevent Blindness. “A Guide for Controlling Eye Injuries in Industry,” Chicago, Il: 1982.
+
+Appendix B to Subpart I of Part 1910—Nonmandatory Compliance Guidelines for Hazard Assessment and Personal Protective Equipment Selection
+
+This appendix is intended to provide compliance assistance for employers and employees in implementing requirements for a hazard assessment and the selection of personal protective equipment.
+
+1. Controlling hazards. PPE devices alone should not be relied on to provide protection against hazards, but should be used in conjunction with guards, engineering controls, and sound manufacturing practices.
+
+2. Assessment and selection. It is necessary to consider certain general guidelines for assessing the foot, head, eye and face, and hand hazard situations that exist in an occupational or educational operation or process, and to match the protective devices to the particular hazard. It should be the responsibility of the safety officer to exercise common sense and appropriate expertise to accomplish these tasks.
+
+3. Assessment guidelines. In order to assess the need for PPE the following steps should be taken:
+
+a. Survey. Conduct a walk-through survey of the areas in question. The purpose of the survey is to identify sources of hazards to workers and co-workers. Consideration should be given to the basic hazard categories:
+
+(a) Impact
+
+(b) Penetration
+
+(c) Compression (roll-over)
+
+(d) Chemical
+
+(e) Heat
+
+(f) Harmful dust
+
+(g) Light (optical) radiation
+
+b. Sources. During the walk-through survey the safety officer should observe: (a) sources of motion; i.e., machinery or processes where any movement of tools, machine elements or particles could exist, or movement of personnel that could result in collision with stationary objects; (b) sources of high temperatures that could result in burns, eye injury or ignition of protective equipment, etc.; (c) types of chemical exposures; (d) sources of harmful dust; (e) sources of light radiation, i.e., welding, brazing, cutting, furnaces, heat treating, high intensity lights, etc.; (f) sources of falling objects or potential for dropping objects; (g) sources of sharp objects which might pierce the feet or cut the hands; (h) sources of rolling or pinching objects which could crush the feet; (i) layout of workplace and location of co-workers; and (j) any electrical hazards. In addition, injury/accident data should be reviewed to help identify problem areas.
+
+c. Organize data. Following the walk-through survey, it is necessary to organize the data and information for use in the assessment of hazards. The objective is to prepare for an analysis of the hazards in the environment to enable proper selection of protective equipment.
+
+d. Analyze data. Having gathered and organized data on a workplace, an estimate of the potential for injuries should be made. Each of the basic hazards (paragraph 3.a.) should be reviewed and a determination made as to the type, level of risk, and seriousness of potential injury from each of the hazards found in the area. The possibility of exposure to several hazards simultaneously should be considered.
+
+4. Selection guidelines. After completion of the procedures in paragraph 3, the general procedure for selection of protective equipment is to: a) Become familiar with the potential hazards and the type of protective equipment that is available, and what it can do; i.e., splash protection, impact protection, etc.; b) compare the hazards associated with the environment; i.e., impact velocities, masses, projectile shape, radiation intensities, with the capabilities of the available protective equipment; c) select the protective equipment which ensures a level of protection greater than the minimum required to protect employees from the hazards; and d) fit the user with the protective device and give instructions on care and use of the PPE. It is very important that end users be made aware of all warning labels for and limitations of their PPE.
+
+5. Fitting the device. Careful consideration must be given to comfort and fit. PPE that fits poorly will not afford the necessary protection. Continued wearing of the device is more likely if it fits the wearer comfortably. Protective devices are generally available in a variety of sizes. Care should be taken to ensure that the right size is selected.
+
+6. Devices with adjustable features. Adjustments should be made on an individual basis for a comfortable fit that will maintain the protective device in the proper position. Particular care should be taken in fitting devices for eye protection against dust and chemical splash to ensure that the devices are sealed to the face. In addition, proper fitting of helmets is important to ensure that it will not fall off during work operations. In some cases a chin strap may be necessary to keep the helmet on an employee's head. (Chin straps should break at a reasonably low force, however, so as to prevent a strangulation hazard). Where manufacturer's instructions are available, they should be followed carefully.
+
+7. Reassessment of hazards. It is the responsibility of the safety officer to reassess the workplace hazard situation as necessary, by identifying and evaluating new equipment and processes, reviewing accident records, and reevaluating the suitability of previously selected PPE.
+
+8. Selection chart guidelines for eye and face protection. Some occupations (not a complete list) for which eye protection should be routinely considered are: carpenters, electricians, machinists, mechanics and repairers, millwrights, plumbers and pipe fitters, sheet metal workers and tinsmiths, assemblers, sanders, grinding machine operators, lathe and milling machine operators, sawyers, welders, laborers, chemical process operators and handlers, and timber cutting and logging workers. The following chart provides general guidance for the proper selection of eye and face protection to protect against hazards associated with the listed hazard “source” operations.
+
+Eye and Face Protection Selection Chart
+
+9. Selection guidelines for head protection. All head protection (helmets) is designed to provide protection from impact and penetration hazards caused by falling objects. Head protection is also available which provides protection from electric shock and burn. When selecting head protection, knowledge of potential electrical hazards is important. Class A helmets, in addition to impact and penetration resistance, provide electrical protection from low-voltage conductors (they are proof tested to 2,200 volts). Class B helmets, in addition to impact and penetration resistance, provide electrical protection from high-voltage conductors (they are proof tested to 20,000 volts). Class C helmets provide impact and penetration resistance (they are usually made of aluminum which conducts electricity), and should not be used around electrical hazards.
+
+Where falling object hazards are present, helmets must be worn. Some examples include: working below other workers who are using tools and materials which could fall; working around or under conveyor belts which are carrying parts or materials; working below machinery or processes which might cause material or objects to fall; and working on exposed energized conductors.
+
+Some examples of occupations for which head protection should be routinely considered are: carpenters, electricians, linemen, mechanics and repairers, plumbers and pipe fitters, assemblers, packers, wrappers, sawyers, welders, laborers, freight handlers, timber cutting and logging, stock handlers, and warehouse laborers.
+
+Beginning with the ANSI Z89.1-1997 standard, ANSI updated the classification system for protective helmets. Prior revisions used type classifications to distinguish between caps and full brimmed hats. Beginning in 1997, Type I designated helmets designed to reduce the force of impact resulting from a blow only to the top of the head, while Type II designated helmets designed to reduce the force of impact resulting from a blow to the top or sides of the head. Accordingly, if a hazard assessment indicates that lateral impact to the head is foreseeable, employers must select Type II helmets for their employees. To improve comprehension and usefulness, the 1997 revision also redesignated the electrical-protective classifications for helmets as follows: “Class G—General”; helmets designed to reduce the danger of contact with low-voltage conductors; “Class E—Electrical”; helmets designed to reduce the danger of contact with conductors at higher voltage levels; and “Class C—Conductive”; helmets that provide no protection against contact with electrical hazards.
+
+10. Selection guidelines for foot protection. Safety shoes and boots which meet the ANSI Z41-1991 Standard provide both impact and compression protection. Where necessary, safety shoes can be obtained which provide puncture protection. In some work situations, metatarsal protection should be provided, and in other special situations electrical conductive or insulating safety shoes would be appropriate.
+
+Safety shoes or boots with impact protection would be required for carrying or handling materials such as packages, objects, parts or heavy tools, which could be dropped; and, for other activities where objects might fall onto the feet. Safety shoes or boots with compression protection would be required for work activities involving skid trucks (manual material handling carts) around bulk rolls (such as paper rolls) and around heavy pipes, all of which could potentially roll over an employee's feet. Safety shoes or boots with puncture protection would be required where sharp objects such as nails, wire, tacks, screws, large staples, scrap metal etc., could be stepped on by employees causing a foot injury. Electrically conductive shoes would be required as a supplementary form of protection for work activities in which there is a danger of fire or explosion from the discharge of static electricity. Electrical-hazard or dielectric footwear would be required as a supplementary form of protection when an employee standing on the ground is exposed to hazardous step or touch potential (the difference in electrical potential between the feet or between the hands and feet) or when primary forms of electrical protective equipment, such as rubber insulating gloves and blankets, do not provide complete protection for an employee standing on the ground.
+
+Some occupations (not a complete list) for which foot protection should be routinely considered are: Shipping and receiving clerks, stock clerks, carpenters, electricians, machinists, mechanics and repairers, plumbers and pipe fitters, structural metal workers, assemblers, drywall installers and lathers, packers, wrappers, craters, punch and stamping press operators, sawyers, welders, laborers, freight handlers, gardeners and grounds-keepers, timber cutting and logging workers, stock handlers and warehouse laborers.
+
+11. Selection guidelines for hand protection. Gloves are often relied upon to prevent cuts, abrasions, burns, and skin contact with chemicals that are capable of causing local or systemic effects following dermal exposure. OSHA is unaware of any gloves that provide protection against all potential hand hazards, and commonly available glove materials provide only limited protection against many chemicals. Therefore, it is important to select the most appropriate glove for a particular application and to determine how long it can be worn, and whether it can be reused.
+
+It is also important to know the performance characteristics of gloves relative to the specific hazard anticipated; e.g., chemical hazards, cut hazards, flame hazards, etc. These performance characteristics should be assessed by using standard test procedures. Before purchasing gloves, the employer should request documentation from the manufacturer that the gloves meet the appropriate test standard(s) for the hazard(s) anticipated.
+
+Other factors to be considered for glove selection in general include:
+
+(A) As long as the performance characteristics are acceptable, in certain circumstances, it may be more cost effective to regularly change cheaper gloves than to reuse more expensive types; and,
+
+(B) The work activities of the employee should be studied to determine the degree of dexterity required, the duration, frequency, and degree of exposure of the hazard, and the physical stresses that will be applied.
+
+With respect to selection of gloves for protection against chemical hazards:
+
+(A) The toxic properties of the chemical(s) must be determined; in particular, the ability of the chemical to cause local effects on the skin and /or to pass through the skin and cause systemic effects;
+
+(B) Generally, any “chemical resistant” glove can be used for dry powders;
+
+(C) For mixtures and formulated products (unless specific test data are available), a glove should be selected on the basis of the chemical component with the shortest breakthrough time, since it is possible for solvents to carry active ingredients through polymeric materials; and,
+
+(D) Employees must be able to remove the gloves in such a manner as to prevent skin contamination.
+
+12. Cleaning and maintenance. It is important that all PPE be kept clean and properly maintained. Cleaning is particularly important for eye and face protection where dirty or fogged lenses could impair vision.
+
+For the purposes of compliance with § 1910.132 (a) and (b), PPE should be inspected, cleaned, and maintained at regular intervals so that the PPE provides the requisite protection.
+
+It is also important to ensure that contaminated PPE which cannot be decontaminated is disposed of in a manner that protects employees from exposure to hazards.
+
+Appendix C to Subpart I of Part 1910—Personal Fall Protection Systems Non-Mandatory Guidelines
+
+The following information generally applies to all personal fall protection systems and is intended to assist employers and employees comply with the requirements of § 1910.140 for personal fall protection systems.
+
+(a) Planning considerations. It is important for employers to plan prior to using personal fall protection systems. Probably the most overlooked component of planning is locating suitable anchorage points. Such planning should ideally be done before the structure or building is constructed so that anchorage points can be used later for window cleaning or other building maintenance.
+
+(b) Selection and use considerations. (1) The kind of personal fall protection system selected should be appropriate for the employee's specific work situation. Free fall distances should always be kept to a minimum. Many systems are designed for particular work applications, such as climbing ladders and poles; maintaining and servicing equipment; and window cleaning. Consideration should be given to the environment in which the work will be performed. For example, the presence of acids, dirt, moisture, oil, grease, or other substances, and their potential effects on the system selected, should be evaluated. The employer should fully evaluate the work conditions and environment (including seasonal weather changes) before selecting the appropriate personal fall protection system. Hot or cold environments may also affect fall protection systems. Wire rope should not be used where electrical hazards are anticipated. As required by § 1910.140(c)(21), the employer must provide a means for promptly rescuing an employee should a fall occur.
+
+(2) Where lanyards, connectors, and lifelines are subject to damage by work operations, such as welding, chemical cleaning, and sandblasting, the component should be protected, or other securing systems should be used. A program for cleaning and maintaining the system may be necessary.
+
+(c) Testing considerations. Before purchasing a personal fall protection system, an employer should insist that the supplier provide information about its test performance (using recognized test methods) so the employer will know that the system meets the criteria in § 1910.140. Otherwise, the employer should test the equipment to ensure that it is in compliance. Appendix D to this subpart contains test methods which are recommended for evaluating the performance of any system. There are some circumstances in which an employer can evaluate a system based on data and calculations derived from the testing of similar systems. Enough information must be available for the employer to demonstrate that its system and the tested system(s) are similar in both function and design.
+
+(d) Component compatibility considerations. Ideally, a personal fall protection system is designed, tested, and supplied as a complete system. However, it is common practice for lanyards, connectors, lifelines, deceleration devices, body belts, and body harnesses to be interchanged since some components wear out before others. Employers and employees should realize that not all components are interchangeable. For instance, a lanyard should not be connected between a body harness and a deceleration device of the self-retracting type (unless specifically allowed by the manufacturer) since this can result in additional free fall for which the system was not designed. In addition, positioning components, such as pole straps, ladder hooks and rebar hooks, should not be used in personal fall arrest systems unless they meet the appropriate strength and performance requirements of part 1910 (e.g., §§ 1910.140, 1910.268 and 1910.269). Any substitution or change to a personal fall protection system should be fully evaluated or tested by a competent person to determine that it meets applicable OSHA standards before the modified system is put in use. Also, OSHA suggests that rope be used according to manufacturers' recommendations, especially if polypropylene rope is used.
+
+(e) Employee training considerations. As required by §§ 1910.30 and 1910.132, before an employee uses a fall protection system, the employer must ensure that he or she is trained in the proper use of the system. This may include the following: The limits of the system; proper anchoring and tie-off techniques; estimating free fall distance, including determining elongation and deceleration distance; methods of use; and inspection and storage. Careless or improper use of fall protection equipment can result in serious injury or death. Employers and employees should become familiar with the material in this standard and appendix, as well as manufacturers' recommendations, before a system is used. It is important for employees to be aware that certain tie-offs (such as using knots and tying around sharp edges) can reduce the overall strength of a system. Employees also need to know the maximum permitted free fall distance. Training should stress the importance of inspections prior to use, the limitations of the equipment to be used, and unique conditions at the worksite that may be important.
+
+(f) Instruction considerations. Employers should obtain comprehensive instructions from the supplier or a qualified person as to the system's proper use and application, including, where applicable:
+
+(1) The force measured during the sample force test;
+
+(2) The maximum elongation measured for lanyards during the force test;
+
+(3) The deceleration distance measured for deceleration devices during the force test;
+
+(4) Caution statements on critical use limitations;
+
+(5) Limits of the system;
+
+(6) Proper hook-up, anchoring and tie-off techniques, including the proper D-ring or other attachment point to use on the body harness;
+
+(7) Proper climbing techniques;
+
+(8) Methods of inspection, use, cleaning, and storage; and
+
+(9) Specific lifelines that may be used.
+
+(g) Inspection considerations. Personal fall protection systems must be inspected before initial use in each workshift. Any component with damage, such as a cut, tear, abrasion, mold, or evidence of undue stretching, an alteration or addition that might affect its effectiveness, damage due to deterioration, fire, acid, or other corrosive damage, distorted hooks or faulty hook springs, tongues that are unfitted to the shoulder of buckles, loose or damaged mountings, non-functioning parts, or wear, or internal deterioration must be removed from service immediately, and should be tagged or marked as unusable, or destroyed. Any personal fall protection system, including components, subjected to impact loading must be removed from service immediately and not used until a competent person inspects the system and determines that it is not damaged and is safe to use for personal fall protection.
+
+(h) Rescue considerations. As required by § 1910.140(c)(21), when personal fall arrest systems are used, special consideration must be given to rescuing an employee promptly should a fall occur. The availability of rescue personnel, ladders, or other rescue equipment needs to be evaluated since there may be instances in which employees cannot self-rescue (e.g., employee unconscious or seriously injured). In some situations, equipment allowing employees to rescue themselves after the fall has been arrested may be desirable, such as devices that have descent capability.
+
+(i) Tie-off considerations. Employers and employees should at all times be aware that the strength of a personal fall arrest system is based on its being attached to an anchoring system that can support the system. Therefore, if a means of attachment is used that will reduce the strength of the system (such as an eye-bolt/snaphook anchorage), that component should be replaced by a stronger one that will also maintain the appropriate maximum deceleration characteristics. The following is a listing of some situations in which employers and employees should be especially cautious:
+
+(1) Tie-off using a knot in the lanyard or lifeline (at any location). The strength of the line can be reduced by 50 percent or more if a knot is used. Therefore, a stronger lanyard or lifeline should be used to compensate for the knot, or the lanyard length should be reduced (or the tie-off location raised) to minimize free fall distance, or the lanyard or lifeline should be replaced by one which has an appropriately incorporated connector to eliminate the need for a knot.
+
+(2) Tie-off around rough or sharp (e.g., “H” or “I” beams) surfaces. Sharp or rough surfaces can damage rope lines and this reduces strength of the system drastically. Such tie-offs should be avoided whenever possible. An alternate means should be used such as a snaphook/D-ring connection, a tie-off apparatus (steel cable tie-off), an effective padding of the surfaces, or an abrasion-resistant strap around the supporting member. If these alternative means of tie-off are not available, the employer should try to minimize the potential free fall distance.
+
+(3) Knots. Sliding hitch knots should not be used except in emergency situations. The one-and-one sliding hitch knot should never be used because it is unreliable in stopping a fall. The two-and-two, or three-and-three knots (preferable) may be used in emergency situations; however, care should be taken to limit free fall distances because of reduced lifeline/lanyard strength. OSHA requires that a competent or qualified person inspect each knot in a lanyard or vertical lifeline to ensure it meets the strength requirements in § 1910.140.
+
+(j) Horizontal lifelines. Horizontal lifelines, depending on their geometry and angle of sag, may be subjected to greater loads than the impact load imposed by an attached component. When the angle of horizontal lifeline sag is less than 30 degrees, the impact force imparted to the lifeline by an attached lanyard is greatly amplified. For example, with a sag angle of 15 degrees the force amplification is about 2:1, and at 5 degrees sag it is about 6:1. Depending on the angle of sag, and the line's elasticity, the strength of the horizontal lifeline, and the anchorages to which it is attached should be increased a number of times over that of the lanyard. Extreme care should be taken in considering a horizontal lifeline for multiple tie-offs. If there are multiple tie-offs to a horizontal lifeline, and one employee falls, the movement of the falling employee and the horizontal lifeline during arrest of the fall may cause other employees to fall. Horizontal lifeline and anchorage strength should be increased for each additional employee to be tied-off. For these and other reasons, the systems using horizontal lifelines must be designed only by qualified persons. OSHA recommends testing installed lifelines and anchors prior to use. OSHA requires that horizontal lifelines are designed, installed and used under the supervision of a qualified person.
+
+(k) Eye-bolts. It must be recognized that the strength of an eye-bolt is rated along the axis of the bolt, and that its strength is greatly reduced if the force is applied at right angles to this axis (in the direction of its shear strength). Care should also be exercised in selecting the proper diameter of the eye to avoid creating a roll-out hazard (accidental disengagement of the snaphook from the eye-bolt).
+
+(l) Vertical lifeline considerations. As required by § 1910.140(c)(3), each employee must have a separate lifeline when the lifeline is vertical. If multiple tie-offs to a single lifeline are used, and one employee falls, the movement of the lifeline during the arrest of the fall may pull other employees' lanyards, causing them to fall as well.
+
+(m) Snaphook and carabiner considerations. As required by § 1910.140(c)(10), the following connections must be avoided unless the locking snaphook or carabiner has been designed for them because they are conditions that can result in rollout:
+
+(1) Direct connection to webbing, rope, or a horizontal lifeline;
+
+(2) Two (or more) snaphooks or carabiners connected to one D-ring;
+
+(3) Two snaphooks or carabiners connected to each other;
+
+(4) Snaphooks or carabiners connected directly to webbing, rope, or wire rope; and
+
+(5) Improper dimensions of the D-ring, rebar, or other connection point in relation to the snaphook or carabiner dimensions which would allow the gate to be depressed by a turning motion.
+
+(n) Free fall considerations. Employers and employees should always be aware that a system's maximum arresting force is evaluated under normal use conditions established by the manufacturer. OSHA requires that personal fall arrest systems be rigged so an employee cannot free fall in excess of 6 feet (1.8 m). Even a few additional feet of free fall can significantly increase the arresting force on the employee, possibly to the point of causing injury and possibly exceeding the strength of the system. Because of this, the free fall distance should be kept to a minimum, and, as required by § 1910.140(d)(2), must never be greater than 6 feet (1.8 m). To assure this, the tie-off attachment point to the lifeline or anchor should be located at or above the connection point of the fall arrest equipment to the harness. (Otherwise, additional free fall distance is added to the length of the connecting means (i.e., lanyard)). Tying off to the walking-working surface will often result in a free fall greater than 6 feet (1.8 m). For instance, if a 6-foot (1.8-m) lanyard is used, the total free fall distance will be the distance from the walking-working level to the harness connection plus the 6 feet (1.8 m) of lanyard.
+
+(o) Elongation and deceleration distance considerations. During fall arrest, a lanyard will stretch or elongate, whereas activation of a deceleration device will result in a certain stopping distance. These distances should be available with the lanyard or device's instructions and must be added to the free fall distance to arrive at the total fall distance before an employee is fully stopped. The additional stopping distance may be significant if the lanyard or deceleration device is attached near or at the end of a long lifeline, which may itself add considerable distance due to its own elongation. As required by § 1910.140(d)(2), sufficient distance to allow for all of these factors must also be maintained between the employee and obstructions below, to prevent an injury due to impact before the system fully arrests the fall. In addition, a minimum of 12 feet (3.7 m) of lifeline should be allowed below the securing point of a rope-grab-type deceleration device, and the end terminated to prevent the device from sliding off the lifeline. Alternatively, the lifeline should extend to the ground or the next working level below. These measures are suggested to prevent the employee from inadvertently moving past the end of the lifeline and having the rope grab become disengaged from the lifeline.
+
+(p) Obstruction considerations. In selecting a location for tie-off, employers and employees should consider obstructions in the potential fall path of the employee. Tie-offs that minimize the possibilities of exaggerated swinging should be considered.
+
+Appendix D to Subpart I of Part 1910—Test Methods and Procedures for Personal Fall Protection Systems Non-Mandatory Guidelines
+
+This appendix contains test methods for personal fall protection systems which may be used to determine if they meet the system performance criteria specified in paragraphs (d) and (e) of § 1910.140.
+
+Test methods for personal fall arrest systems (paragraph (d) of § 1910.140).
+
+(a) General. The following sets forth test procedures for personal fall arrest systems as defined in paragraph (d) of § 1910.140.
+
+(b) General test conditions.
+
+(1) Lifelines, lanyards and deceleration devices should be attached to an anchorage and connected to the body harness in the same manner as they would be when used to protect employees.
+
+(2) The fixed anchorage should be rigid, and should not have a deflection greater than 0.04 inches (1 mm) when a force of 2,250 pounds (10 kN) is applied.
+
+(3) The frequency response of the load measuring instrumentation should be 120 Hz.
+
+(4) The test weight used in the strength and force tests should be a rigid, metal cylindrical or torso-shaped object with a girth of 38 inches plus or minus 4 inches (96 cm plus or minus 10 cm).
+
+(5) The lanyard or lifeline used to create the free fall distance should be supplied with the system, or in its absence, the least elastic lanyard or lifeline available should be used with the system.
+
+(6) The test weight for each test should be hoisted to the required level and should be quickly released without having any appreciable motion imparted to it.
+
+(7) The system's performance should be evaluated, taking into account the range of environmental conditions for which it is designed to be used.
+
+(8) Following the test, the system need not be capable of further operation.
+
+(c) Strength test.
+
+(1) During the testing of all systems, a test weight of 300 pounds plus or minus 3 pounds (136.4 kg plus or minus 1.4 kg) should be used. (See paragraph (b)(4) of this appendix.)
+
+(2) The test consists of dropping the test weight once. A new unused system should be used for each test.
+
+(3) For lanyard systems, the lanyard length should be 6 feet plus or minus 2 inches (1.83 m plus or minus 5 cm) as measured from the fixed anchorage to the attachment on the body harness.
+
+(4) For rope-grab-type deceleration systems, the length of the lifeline above the centerline of the grabbing mechanism to the lifeline's anchorage point should not exceed 2 feet (0.61 m).
+
+(5) For lanyard systems, for systems with deceleration devices which do not automatically limit free fall distance to 2 feet (0.61 m) or less, and for systems with deceleration devices which have a connection distance in excess of 1 foot (0.3 m) (measured between the centerline of the lifeline and the attachment point to the body harness), the test weight should be rigged to free fall a distance of 7.5 feet (2.3 m) from a point that is 1.5 feet (46 cm) above the anchorage point, to its hanging location (6 feet (1.83 m) below the anchorage). The test weight should fall without interference, obstruction, or hitting the floor or ground during the test. In some cases a non-elastic wire lanyard of sufficient length may need to be added to the system (for test purposes) to create the necessary free fall distance.
+
+(6) For deceleration device systems with integral lifelines or lanyards that automatically limit free fall distance to 2 feet (0.61 m) or less, the test weight should be rigged to free fall a distance of 4 feet (1.22 m).
+
+(7) Any weight that detaches from the harness should constitute failure for the strength test.
+
+(d) Force test.
+
+(1) General. The test consists of dropping the respective test weight specified in paragraph (d)(2)(i) or (d)(3)(i) of this appendix once. A new, unused system should be used for each test.
+
+(2) For lanyard systems. (i) A test weight of 220 pounds plus or minus three pounds (100 kg plus or minus 1.6 kg) should be used. (See paragraph (b)(4) of this appendix.)
+
+(ii) Lanyard length should be 6 feet plus or minus 2 inches (1.83 m plus or minus 5 cm) as measured from the fixed anchorage to the attachment on the body harness.
+
+(iii) The test weight should fall free from the anchorage level to its hanging location (a total of 6 feet (1.83 m) free fall distance) without interference, obstruction, or hitting the floor or ground during the test.
+
+(3) For all other systems. (i) A test weight of 220 pounds plus or minus 2 pounds (100 kg plus or minus 1.0 kg) should be used. (See paragraph (b)(4) of this appendix.)
+
+(ii) The free fall distance to be used in the test should be the maximum fall distance physically permitted by the system during normal use conditions, up to a maximum free fall distance for the test weight of 6 feet (1.83 m), except as follows:
+
+(A) For deceleration systems having a connection link or lanyard, the test weight should free fall a distance equal to the connection distance (measured between the centerline of the lifeline and the attachment point to the body harness).
+
+(B) For deceleration device systems with integral lifelines or lanyards that automatically limit free fall distance to 2 feet (0.61 m) or less, the test weight should free fall a distance equal to that permitted by the system in normal use. (For example, to test a system with a self-retracting lifeline or lanyard, the test weight should be supported and the system allowed to retract the lifeline or lanyard as it would in normal use. The test weight would then be released and the force and deceleration distance measured).
+
+(4) Failure. A system fails the force test when the recorded maximum arresting force exceeds 2,520 pounds (11.2 kN) when using a body harness.
+
+(5) Distances. The maximum elongation and deceleration distance should be recorded during the force test.
+
+(e) Deceleration device tests.
+
+(1) General. The device should be evaluated or tested under the environmental conditions (such as rain, ice, grease, dirt, and type of lifeline) for which the device is designed.
+
+(2) Rope-grab-type deceleration devices. (i) Devices should be moved on a lifeline 1,000 times over the same length of line a distance of not less than 1 foot (30.5 cm), and the mechanism should lock each time.
+
+(ii) Unless the device is permanently marked to indicate the type of lifelines that must be used, several types (different diameters and different materials), of lifelines should be used to test the device.
+
+(3) Other self-activating-type deceleration devices. The locking mechanisms of other self-activating-type deceleration devices designed for more than one arrest should lock each of 1,000 times as they would in normal service.
+
+Test methods for positioning systems (paragraph (e) of § 1910.140).
+
+(a) General. The following sets forth test procedures for positioning systems as defined in paragraph (e) of § 1910.140. The requirements in this appendix for personal fall arrest systems set forth procedures that may be used, along with the procedures listed below, to determine compliance with the requirements for positioning systems.
+
+(b) Test conditions.
+
+(1) The fixed anchorage should be rigid and should not have a deflection greater than 0.04 inches (1 mm) when a force of 2,250 pounds (10 kN) is applied.
+
+(2) For window cleaners' belts, the complete belt should withstand a drop test consisting of a 250 pound (113 kg) weight falling free for a distance of 6 feet (1.83 m). The weight should be a rigid object with a girth of 38 inches plus or minus 4 inches (96 cm plus or minus 10 cm). The weight should be placed in the waistband with the belt buckle drawn firmly against the weight, as when the belt is worn by a window cleaner. One belt terminal should be attached to a rigid anchor and the other terminal should hang free. The terminals should be adjusted to their maximum span. The weight fastened in the freely suspended belt should then be lifted exactly 6 feet (1.83 m) above its “at rest” position and released so as to permit a free fall of 6 feet (1.83 m) vertically below the point of attachment of the terminal anchor. The belt system should be equipped with devices and instrumentation capable of measuring the duration and magnitude of the arrest forces. Failure of the test should consist of any breakage or slippage sufficient to permit the weight to fall free of the system. In addition, the initial and subsequent arresting forces should be measured and should not exceed 2,000 pounds (8.5 kN) for more than 2 milliseconds for the initial impact, or exceed 1,000 pounds (4.5 kN) for the remainder of the arrest time.
+
+(3) All other positioning systems (except for restraint line systems) should withstand a drop test consisting of a 250 pound (113 kg) weight free falling a distance of 4 feet (1.2 m). The weight must be a rigid object with a girth of 38 inches plus or minus 4 inches (96 cm plus or minus 10 cm). The body belt or harness should be affixed to the test weight as it would be to an employee. The system should be connected to the rigid anchor in the manner that the system would be connected in normal use. The weight should be lifted exactly 4 feet (1.2 m) above its “at rest” position and released so as to permit a vertical free fall of 4 feet (1.2 m). Failure of the system should be indicated by any breakage or slippage sufficient to permit the weight to fall free to the ground.
+
+Subpart J—General Environmental Controls
+
+Sections 1910.141, 1910.142, 1910.145, 1910.146, and 1910.147 also issued under 29 CFR part 1911.
