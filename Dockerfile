@@ -19,4 +19,4 @@ COPY . .
 EXPOSE 8001
 
 # Direct uvicorn — no startup script needed since ChromaDB is gone
-CMD ["uvicorn", "rag_service:app", "--host", "0.0.0.0", "--port", "8001"]
+CMD ["sh", "-c", "uvicorn rag_service:app --host 0.0.0.0 --port ${PORT:-8001}"]
