@@ -10,16 +10,13 @@ RUN apt-get update && apt-get install -y \
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Cache embedding model at build time — avoids downloading at runtime
+# Cache embedding model at build time
+# No ChromaDB needed — vectors live in Supabase
 RUN python -c "from sentence_transformers import SentenceTransformer; SentenceTransformer('BAAI/bge-small-en-v1.5')"
 
-# Copy all source files
 COPY . .
-
-# Make startup script executable
-RUN chmod +x start.sh
 
 EXPOSE 8001
 
-# start.sh checks for ChromaDB, builds if missing, then starts uvicorn
-CMD ["./start.sh"]
+# Direct uvicorn — no startup script needed since ChromaDB is gone
+CMD ["uvicorn", "rag_service:app", "--host", "0.0.0.0", "--port", "8001"]

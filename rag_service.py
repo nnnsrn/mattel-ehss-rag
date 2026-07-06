@@ -1,31 +1,17 @@
 """
 RAG Service — Separate HTTP Microservice (Opsi A)
 =================================================
-Exposes endpoints for RF's FastAPI to call:
+Vector store: Supabase pgvector (replaces ChromaDB)
+Embedding:    BAAI/bge-small-en-v1.5 (local, no API key)
+Generation:   Gemini 3.5 Flash
 
-  POST /rag/generate-corrective-actions
-      Input : list of YOLO-detected hazards (label, confidence, ocr_text)
-      Output: list of corrective actions (hazard_label + action_description only)
-              Priority and due_date are intentionally excluded — RF handles
-              those via severity rule table in FastAPI (Opsi 2, agreed 2026-07-05)
-
-  POST /rag/chat
-      Input : free-text safety question from inspector
-      Output: conversational answer grounded in OSHA documents, with citations
-
-  POST /rag/index   (stub — implement after main endpoints are tested)
-      Input : new EHSS document URL from admin upload
-      Output: indexing confirmation
-
-Run this service:
+Run locally:
     uvicorn rag_service:app --host 0.0.0.0 --port 8001 --reload
 
 Requirements:
-    pip install fastapi uvicorn langchain langchain-google-genai langchain-chroma
-                chromadb python-dotenv langchain-huggingface sentence-transformers
-
-Embedding : BAAI/bge-small-en-v1.5 (local, no API key, no quota)
-Generation: Gemini 3.5 Flash (requires GOOGLE_API_KEY in .env)
+    pip install fastapi uvicorn langchain langchain-google-genai
+                langchain-community langchain-huggingface sentence-transformers
+                supabase vecs python-dotenv
 """
 
 from dotenv import load_dotenv
@@ -35,34 +21,30 @@ import os
 import re
 import json
 import logging
-from datetime import datetime, timedelta
 from typing import Optional
 
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 
+from supabase.client import create_client
+from langchain_community.vectorstores import SupabaseVectorStore
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_google_genai import ChatGoogleGenerativeAI
-from langchain_chroma import Chroma
 
 
 # ---------------------------------------------------------------------------
 # Config
 # ---------------------------------------------------------------------------
 
-PERSIST_DIR    = "./chroma_db"
-GOOGLE_API_KEY = os.environ["GOOGLE_API_KEY"]
-RETRIEVAL_K    = 3
+SUPABASE_URL              = os.environ["SUPABASE_URL"]
+SUPABASE_SERVICE_ROLE_KEY = os.environ["SUPABASE_SERVICE_ROLE_KEY"]
+GOOGLE_API_KEY            = os.environ["GOOGLE_API_KEY"]
+RETRIEVAL_K               = 3
 
-# Labels that are NOT hazards — no corrective action generated for these.
-# Maintained here (not in RF's FastAPI) because this is CV/detection domain
-# logic: "person" is a YOLO detection anchor class, not a safety violation.
-# Priority and due_date rules live in RF's FastAPI (single source of truth).
+# Labels that are NOT hazards — skip corrective action generation
 NON_HAZARD_LABELS = {"person"}
 
-# Enriched retrieval queries per hazard label.
-# Improves retrieval precision over using the raw label string as a query —
-# e.g. "blocked_walkway" alone matched ladder sections instead of egress/housekeeping.
+# Enriched retrieval queries — improves precision over raw label strings
 RETRIEVAL_QUERY_MAP = {
     "no_helmet":       "head protection helmet PPE hard hat",
     "helmet":          "head protection helmet PPE hard hat",
@@ -92,9 +74,6 @@ llm         = None
 async def startup():
     global vectorstore, llm
 
-    # Local embedding model — no API key, no quota, no rate limit.
-    # Must match the model used in build_knowledge_base.py exactly.
-    # normalize_embeddings=True is required for bge models.
     logger.info("Loading local embedding model (BAAI/bge-small-en-v1.5)...")
     embeddings = HuggingFaceEmbeddings(
         model_name="BAAI/bge-small-en-v1.5",
@@ -102,19 +81,21 @@ async def startup():
         encode_kwargs={"normalize_embeddings": True},
     )
 
-    logger.info("Loading ChromaDB...")
-    vectorstore = Chroma(
-        persist_directory=PERSIST_DIR,
-        embedding_function=embeddings,
+    logger.info("Connecting to Supabase pgvector...")
+    supabase_client = create_client(SUPABASE_URL, SUPABASE_SERVICE_ROLE_KEY)
+    vectorstore = SupabaseVectorStore(
+        embedding  = embeddings,
+        client     = supabase_client,
+        table_name = "documents",
+        query_name = "match_documents",
     )
-    logger.info(f"ChromaDB loaded — {vectorstore._collection.count()} vectors")
+    logger.info("Supabase pgvector connected.")
 
-    # Gemini Flash for generation only — embedding is fully local.
     logger.info("Loading Gemini Flash LLM...")
     llm = ChatGoogleGenerativeAI(
-        model="gemini-3.5-flash",
-        google_api_key=GOOGLE_API_KEY,
-        temperature=0.2,
+        model        = "gemini-3.5-flash",
+        google_api_key = GOOGLE_API_KEY,
+        temperature  = 0.2,
     )
     logger.info("RAG service ready.")
 
@@ -124,7 +105,7 @@ async def startup():
 # ---------------------------------------------------------------------------
 
 def retrieve_context(query: str, k: int = RETRIEVAL_K) -> list[dict]:
-    """Embed query locally and retrieve top-k chunks from ChromaDB."""
+    """Embed query locally, retrieve top-k chunks from Supabase pgvector."""
     results = vectorstore.similarity_search(query, k=k)
     return [
         {
@@ -137,7 +118,6 @@ def retrieve_context(query: str, k: int = RETRIEVAL_K) -> list[dict]:
 
 
 def format_context_for_prompt(chunks: list[dict]) -> str:
-    """Format retrieved chunks into a numbered block for the LLM prompt."""
     return "\n\n".join(
         f"[Source {i+1} — OSHA § {c['section']}]\n{c['content']}"
         for i, c in enumerate(chunks)
@@ -145,11 +125,7 @@ def format_context_for_prompt(chunks: list[dict]) -> str:
 
 
 def extract_text_from_response(content) -> str:
-    """
-    Normalize LLM response content to plain string.
-    gemini-3.5-flash returns a list of content blocks instead of a plain
-    string — this handles both formats defensively.
-    """
+    """Handle both str and list response formats from Gemini."""
     if isinstance(content, str):
         return content.strip()
     if isinstance(content, list):
@@ -170,10 +146,9 @@ class HazardInput(BaseModel):
     ocr_text:         Optional[str] = ""
 
 class CorrectiveAction(BaseModel):
-    label:       str
+    label:              str
     action_description: str
-    # NOTE: priority and due_date intentionally excluded.
-    # RF's FastAPI is single source of truth for these (Opsi 2).
+    # priority and due_date intentionally excluded — RF handles these (Opsi 2)
 
 class CorrectiveActionsRequest(BaseModel):
     hazards: list[HazardInput]
@@ -184,22 +159,10 @@ class CorrectiveActionsResponse(BaseModel):
 
 @app.post("/rag/generate-corrective-actions", response_model=CorrectiveActionsResponse)
 async def generate_corrective_actions(request: CorrectiveActionsRequest):
-    """
-    Takes YOLO-detected hazards, retrieves relevant OSHA regulations,
-    generates corrective action descriptions via Gemini in one batched call.
-
-    Design decisions:
-    - NON_HAZARD_LABELS (e.g. 'person') are filtered out — not a safety violation
-    - All hazards batched into ONE Gemini call to minimize API usage
-    - RETRIEVAL_QUERY_MAP enriches queries for better retrieval precision
-    - OCR text further enriches the retrieval query when present
-    - priority and due_date NOT returned — RF handles these (Opsi 2)
-    """
     actionable = [h for h in request.hazards if h.label not in NON_HAZARD_LABELS]
     if not actionable:
         return CorrectiveActionsResponse(actions=[])
 
-    # Retrieve OSHA context for each hazard
     hazard_contexts = {}
     for hazard in actionable:
         base_query = RETRIEVAL_QUERY_MAP.get(
@@ -209,7 +172,6 @@ async def generate_corrective_actions(request: CorrectiveActionsRequest):
             base_query += f" {hazard.ocr_text.strip()}"
         hazard_contexts[hazard.label] = retrieve_context(base_query, k=RETRIEVAL_K)
 
-    # Build ONE batch prompt for all hazards
     hazard_blocks = []
     for hazard in actionable:
         context  = format_context_for_prompt(hazard_contexts[hazard.label])
@@ -232,7 +194,7 @@ Respond ONLY with a valid JSON array. One object per hazard. No preamble, no mar
 Format:
 [
   {{
-    "hazard_label": "<exact label from input>",
+    "label": "<exact label from input>",
     "action_description": "<specific corrective action, cite the OSHA section number>"
   }}
 ]"""
@@ -250,11 +212,11 @@ Format:
         logger.error(f"LLM call failed: {e}")
         raise HTTPException(status_code=502, detail=f"LLM error: {str(e)}")
 
-    description_map = {item["hazard_label"]: item["action_description"] for item in parsed}
+    description_map = {item["label"]: item["action_description"] for item in parsed}
 
     return CorrectiveActionsResponse(actions=[
         CorrectiveAction(
-            label       = hazard.label,
+            label              = hazard.label,
             action_description = description_map.get(
                 hazard.label, "Follow OSHA general safety standards."
             ),
@@ -282,11 +244,6 @@ class ChatResponse(BaseModel):
 
 @app.post("/rag/chat", response_model=ChatResponse)
 async def chat(request: ChatRequest):
-    """
-    Answers a free-text safety question grounded in OSHA documents.
-    Backend for the 'EHSS AI Assistant' panel in RF's UI.
-    Returns answer text + source citations for display alongside it.
-    """
     if not request.question.strip():
         raise HTTPException(status_code=400, detail="Question cannot be empty")
 
@@ -301,13 +258,12 @@ async def chat(request: ChatRequest):
 
     context = format_context_for_prompt(chunks)
 
-    prompt = f"""You are an EHSS (Environmental Health, Safety, and Sustainability)
-expert assistant for Mattel manufacturing facilities. Answer the inspector's question
-using ONLY the provided OSHA regulation excerpts below.
+    prompt = f"""You are an EHSS expert assistant for Mattel manufacturing facilities.
+Answer the inspector's question using ONLY the provided OSHA regulation excerpts below.
 
 If the answer is not covered by the excerpts, say so clearly rather than guessing.
 Always cite the specific OSHA section number (e.g. § 1910.132) when making a claim.
-Keep the answer concise and practical — inspectors need actionable information.
+Keep the answer concise and practical.
 
 OSHA Regulation Excerpts:
 {context}
@@ -354,26 +310,28 @@ class IndexResponse(BaseModel):
 
 @app.post("/rag/index", response_model=IndexResponse)
 async def index_document(request: IndexRequest):
-    """
-    Stub — implement after /generate-corrective-actions and /chat are tested.
-    Returns 501 until implemented. RF can wire this up without getting a 404.
-    """
     raise HTTPException(
         status_code=501,
-        detail="Not implemented yet. Will be built after core endpoints are complete."
+        detail="Not implemented yet."
     )
 
 
 # ---------------------------------------------------------------------------
-# Health check — RF calls this to verify service is up before sending requests
+# Health check
 # ---------------------------------------------------------------------------
 
 @app.get("/health")
 async def health():
-    count = vectorstore._collection.count() if vectorstore else 0
+    try:
+        # Quick test query to verify Supabase connection is live
+        test = vectorstore.similarity_search("PPE helmet", k=1)
+        connected = len(test) > 0
+    except Exception:
+        connected = False
+
     return {
-        "status":          "ok",
-        "vectors_stored":  count,
+        "status":          "ok" if connected else "degraded",
+        "supabase":        "connected" if connected else "error",
         "embedding_model": "BAAI/bge-small-en-v1.5 (local)",
         "llm_model":       "gemini-3.5-flash",
     }
