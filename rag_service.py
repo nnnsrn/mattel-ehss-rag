@@ -1,17 +1,25 @@
 """
 RAG Service — Separate HTTP Microservice (Opsi A)
 =================================================
-Vector store: Supabase pgvector (replaces ChromaDB)
+Vector store: Supabase pgvector
 Embedding:    BAAI/bge-small-en-v1.5 (local, no API key)
 Generation:   Gemini 3.5 Flash
+
+YOLO classes (6 actionable, 1 filtered):
+  person        → filtered (not a hazard)
+  helmet        → high priority
+  safety_vest   → medium priority
+  wet_floor     → medium priority (covers both wet surface AND chemical-related
+                   floor hazards — chemical_spill class removed from YOLO per
+                   supervisor decision. OCR text enriches retrieval when
+                   chemical vocabulary is present in image signage.)
+  blocked_walkway → high priority
+  exposed_cable   → high priority
 
 Run locally:
     uvicorn rag_service:app --host 0.0.0.0 --port 8001 --reload
 
-Requirements:
-    pip install fastapi uvicorn langchain langchain-google-genai
-                langchain-community langchain-huggingface sentence-transformers
-                supabase vecs python-dotenv
+Deploy: Railway (Dockerfile + railway.json in repo root)
 """
 
 from dotenv import load_dotenv
@@ -41,19 +49,24 @@ SUPABASE_SERVICE_ROLE_KEY = os.environ["SUPABASE_SERVICE_ROLE_KEY"]
 GOOGLE_API_KEY            = os.environ["GOOGLE_API_KEY"]
 RETRIEVAL_K               = 3
 
-# Labels that are NOT hazards — skip corrective action generation
+# Only 'person' is filtered — it is a YOLO detection anchor, not a hazard.
+# chemical_spill was removed from YOLO by Johana (supervisor approved) —
+# wet_floor now covers both wet surface and chemical floor hazards.
 NON_HAZARD_LABELS = {"person"}
 
-# Enriched retrieval queries — improves precision over raw label strings
+# Enriched retrieval queries per hazard label.
+# wet_floor intentionally includes chemical/spill vocabulary so that
+# OCR text like "CHEMICAL" or "SPILL" on signage pulls hazcom content
+# in addition to walking surfaces content — broader coverage for the
+# merged class.
 RETRIEVAL_QUERY_MAP = {
-    "no_helmet":       "head protection helmet PPE hard hat",
-    "helmet":          "head protection helmet PPE hard hat",
-    "no_vest":         "high visibility vest PPE protective clothing",
-    "safety_vest":     "high visibility vest PPE protective clothing",
-    "wet_floor":       "wet floor slip housekeeping walking surface",
-    "blocked_walkway": "walkway egress path clear obstruction housekeeping",
-    "exposed_cable":   "electrical cable cord damage protection wiring",
-    "chemical_spill":  "chemical spill hazardous material emergency response",
+    "no_helmet":        "head protection helmet PPE hard hat",
+    "helmet":           "head protection helmet PPE hard hat",
+    "no_vest":          "high visibility vest PPE protective clothing",
+    "safety_vest":      "high visibility vest PPE protective clothing",
+    "wet_floor":        "wet floor slip housekeeping walking surface spill liquid chemical hazard",
+    "blocked_walkway":  "walkway egress path clear obstruction housekeeping",
+    "exposed_cable":    "electrical cable cord damage protection wiring",
 }
 
 logging.basicConfig(level=logging.INFO)
@@ -93,9 +106,9 @@ async def startup():
 
     logger.info("Loading Gemini Flash LLM...")
     llm = ChatGoogleGenerativeAI(
-        model        = "gemini-3.5-flash",
+        model          = "gemini-3.5-flash",
         google_api_key = GOOGLE_API_KEY,
-        temperature  = 0.2,
+        temperature    = 0.2,
     )
     logger.info("RAG service ready.")
 
@@ -148,7 +161,7 @@ class HazardInput(BaseModel):
 class CorrectiveAction(BaseModel):
     label:              str
     action_description: str
-    # priority and due_date intentionally excluded — RF handles these (Opsi 2)
+    # priority and due_date excluded — RF's FastAPI is single source of truth
 
 class CorrectiveActionsRequest(BaseModel):
     hazards: list[HazardInput]
@@ -159,19 +172,31 @@ class CorrectiveActionsResponse(BaseModel):
 
 @app.post("/rag/generate-corrective-actions", response_model=CorrectiveActionsResponse)
 async def generate_corrective_actions(request: CorrectiveActionsRequest):
+    """
+    Takes YOLO-detected hazards, retrieves OSHA regulations, generates
+    corrective action descriptions in one batched Gemini call.
+
+    wet_floor query is enriched with chemical vocabulary so that OCR text
+    containing chemical-related terms pulls hazcom content in addition to
+    walking surfaces — covering the merged wet_floor/chemical_spill class.
+    """
     actionable = [h for h in request.hazards if h.label not in NON_HAZARD_LABELS]
     if not actionable:
         return CorrectiveActionsResponse(actions=[])
 
+    # Retrieve OSHA context for each hazard
     hazard_contexts = {}
     for hazard in actionable:
         base_query = RETRIEVAL_QUERY_MAP.get(
             hazard.label, hazard.label.replace("_", " ")
         )
+        # OCR text enrichment — if image signage mentions "CHEMICAL", "ACID",
+        # "FLAMMABLE" etc., this pulls chemical-relevant chunks for wet_floor
         if hazard.ocr_text and hazard.ocr_text.strip():
             base_query += f" {hazard.ocr_text.strip()}"
         hazard_contexts[hazard.label] = retrieve_context(base_query, k=RETRIEVAL_K)
 
+    # Build ONE batch prompt for all hazards
     hazard_blocks = []
     for hazard in actionable:
         context  = format_context_for_prompt(hazard_contexts[hazard.label])
@@ -244,6 +269,10 @@ class ChatResponse(BaseModel):
 
 @app.post("/rag/chat", response_model=ChatResponse)
 async def chat(request: ChatRequest):
+    """
+    Answers free-text safety questions grounded in OSHA documents.
+    Backend for the EHSS AI Assistant panel in RF's frontend UI.
+    """
     if not request.question.strip():
         raise HTTPException(status_code=400, detail="Question cannot be empty")
 
@@ -258,12 +287,13 @@ async def chat(request: ChatRequest):
 
     context = format_context_for_prompt(chunks)
 
-    prompt = f"""You are an EHSS expert assistant for Mattel manufacturing facilities.
-Answer the inspector's question using ONLY the provided OSHA regulation excerpts below.
+    prompt = f"""You are an EHSS (Environmental Health, Safety, and Sustainability)
+expert assistant for Mattel manufacturing facilities. Answer the inspector's question
+using ONLY the provided OSHA regulation excerpts below.
 
 If the answer is not covered by the excerpts, say so clearly rather than guessing.
 Always cite the specific OSHA section number (e.g. § 1910.132) when making a claim.
-Keep the answer concise and practical.
+Keep the answer concise and practical — inspectors need actionable information.
 
 OSHA Regulation Excerpts:
 {context}
@@ -310,10 +340,7 @@ class IndexResponse(BaseModel):
 
 @app.post("/rag/index", response_model=IndexResponse)
 async def index_document(request: IndexRequest):
-    raise HTTPException(
-        status_code=501,
-        detail="Not implemented yet."
-    )
+    raise HTTPException(status_code=501, detail="Not implemented yet.")
 
 
 # ---------------------------------------------------------------------------
@@ -323,15 +350,13 @@ async def index_document(request: IndexRequest):
 @app.get("/health")
 async def health():
     try:
-        # Quick test query to verify Supabase connection is live
-        test = vectorstore.similarity_search("PPE helmet", k=1)
+        test      = vectorstore.similarity_search("PPE helmet", k=1)
         connected = len(test) > 0
     except Exception:
         connected = False
-
     return {
-        "status":          "ok" if connected else "degraded",
-        "supabase":        "connected" if connected else "error",
-        "embedding_model": "BAAI/bge-small-en-v1.5 (local)",
-        "llm_model":       "gemini-3.5-flash",
+        "status":           "ok" if connected else "degraded",
+        "supabase":         "connected" if connected else "error",
+        "embedding_model":  "BAAI/bge-small-en-v1.5 (local)",
+        "llm_model":        "gemini-3.5-flash",
     }
