@@ -106,7 +106,7 @@ async def startup():
 
     logger.info("Loading Gemini Flash LLM...")
     llm = ChatGoogleGenerativeAI(
-        model          = "gemini-1.5-flash",
+        model          = "gemini-2.5-flash-lite",
         google_api_key = GOOGLE_API_KEY,
         temperature    = 0.2,
     )
