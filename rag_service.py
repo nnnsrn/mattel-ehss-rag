@@ -37,7 +37,8 @@ from pydantic import BaseModel
 from supabase.client import create_client
 from langchain_community.vectorstores import SupabaseVectorStore
 from langchain_huggingface import HuggingFaceEmbeddings
-from langchain_google_genai import ChatGoogleGenerativeAI
+#from langchain_google_genai import ChatGoogleGenerativeAI
+from langchain_groq import ChatGroq
 
 
 # ---------------------------------------------------------------------------
@@ -47,6 +48,7 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 SUPABASE_URL              = os.environ["SUPABASE_URL"]
 SUPABASE_SERVICE_ROLE_KEY = os.environ["SUPABASE_SERVICE_ROLE_KEY"]
 GOOGLE_API_KEY            = os.environ["GOOGLE_API_KEY"]
+GROQ_API_KEY = os.environ["GROQ_API_KEY"]
 RETRIEVAL_K               = 3
 
 # Only 'person' is filtered — it is a YOLO detection anchor, not a hazard.
@@ -104,10 +106,10 @@ async def startup():
     )
     logger.info("Supabase pgvector connected.")
 
-    logger.info("Loading Gemini Flash LLM...")
-    llm = ChatGoogleGenerativeAI(
-        model          = "gemini-2.0-flash-lite",
-        google_api_key = GOOGLE_API_KEY,
+    logger.info("Loading Groq LLM...")
+    llm = ChatGroq(
+        model          = "llama-3.1-8b-instant",
+        groq_api_key = GROQ_API_KEY,
         temperature    = 0.2,
     )
     logger.info("RAG service ready.")
