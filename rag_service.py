@@ -3,23 +3,35 @@ RAG Service — Separate HTTP Microservice (Opsi A)
 =================================================
 Vector store: Supabase pgvector
 Embedding:    BAAI/bge-small-en-v1.5 (local, no API key)
-Generation:   Gemini 3.5 Flash
+Generation:   Groq llama-3.1-8b-instant (free, 14,400 req/day)
 
-YOLO classes (6 actionable, 1 filtered):
-  person        → filtered (not a hazard)
-  helmet        → high priority
-  safety_vest   → medium priority
-  wet_floor     → medium priority (covers both wet surface AND chemical-related
-                   floor hazards — chemical_spill class removed from YOLO per
-                   supervisor decision. OCR text enriches retrieval when
-                   chemical vocabulary is present in image signage.)
-  blocked_walkway → high priority
-  exposed_cable   → high priority
+UPDATED (post company visit):
+- Added area context to corrective action prompt
+- Added 7 new area-specific YOLO classes to RETRIEVAL_QUERY_MAP
+- HazardInput now accepts optional 'area' field
+- NON_HAZARD_LABELS updated
 
-Run locally:
-    uvicorn rag_service:app --host 0.0.0.0 --port 8001 --reload
+API CONTRACT CHANGE — notify RF:
+  /rag/generate-corrective-actions now accepts optional 'area' field per hazard:
+  {
+    "hazards": [
+      {
+        "label": "no_glasses",
+        "confidence_score": 0.91,
+        "ocr_text": "",
+        "area": "Spray/Decoration Area"   ← NEW optional field
+      }
+    ]
+  }
+  RF should pass area from the inspection session metadata.
+  If area is omitted, corrective actions are still generated (area-generic).
 
-Deploy: Railway (Dockerfile + railway.json in repo root)
+Run locally:  uvicorn rag_service:app --host 0.0.0.0 --port 8001 --reload
+Deploy:       Railway (auto-deploy from GitHub, CMD uses $PORT)
+
+Requirements:
+    pip install fastapi uvicorn langchain langchain-community langchain-huggingface
+                sentence-transformers supabase vecs python-dotenv langchain-groq
 """
 
 from dotenv import load_dotenv
@@ -37,7 +49,6 @@ from pydantic import BaseModel
 from supabase.client import create_client
 from langchain_community.vectorstores import SupabaseVectorStore
 from langchain_huggingface import HuggingFaceEmbeddings
-#from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_groq import ChatGroq
 
 
@@ -45,30 +56,58 @@ from langchain_groq import ChatGroq
 # Config
 # ---------------------------------------------------------------------------
 
-SUPABASE_URL              = os.environ["SUPABASE_URL"]
-SUPABASE_SERVICE_ROLE_KEY = os.environ["SUPABASE_SERVICE_ROLE_KEY"]
-GOOGLE_API_KEY            = os.environ["GOOGLE_API_KEY"]
-GROQ_API_KEY = os.environ["GROQ_API_KEY"]
-RETRIEVAL_K               = 3
+SUPABASE_URL              = os.environ.get("SUPABASE_URL")
+SUPABASE_SERVICE_ROLE_KEY = os.environ.get("SUPABASE_SERVICE_ROLE_KEY")
+GROQ_API_KEY              = os.environ.get("GROQ_API_KEY")
 
-# Only 'person' is filtered — it is a YOLO detection anchor, not a hazard.
-# chemical_spill was removed from YOLO by Johana (supervisor approved) —
-# wet_floor now covers both wet surface and chemical floor hazards.
+if not SUPABASE_URL:
+    raise ValueError("SUPABASE_URL is not set. Add it to .env or Railway Variables.")
+if not SUPABASE_SERVICE_ROLE_KEY:
+    raise ValueError("SUPABASE_SERVICE_ROLE_KEY is not set.")
+if not GROQ_API_KEY:
+    raise ValueError("GROQ_API_KEY is not set. Get a free key at console.groq.com.")
+
+RETRIEVAL_K = 3
+
+# Labels that are NOT hazards — no corrective action generated.
+# 'person' is a YOLO detection anchor class, not a safety violation.
 NON_HAZARD_LABELS = {"person"}
 
-# Enriched retrieval queries per hazard label.
-# wet_floor intentionally includes chemical/spill vocabulary so that
-# OCR text like "CHEMICAL" or "SPILL" on signage pulls hazcom content
-# in addition to walking surfaces content — broader coverage for the
-# merged class.
+# Enriched retrieval queries per YOLO class.
+# Each query is designed to pull the most relevant OSHA section for that hazard.
+# Updated with 7 new area-specific classes from company visit.
 RETRIEVAL_QUERY_MAP = {
-    "no_helmet":        "head protection helmet PPE hard hat",
-    "helmet":           "head protection helmet PPE hard hat",
-    "no_vest":          "high visibility vest PPE protective clothing",
-    "safety_vest":      "high visibility vest PPE protective clothing",
-    "wet_floor":        "wet floor slip housekeeping walking surface spill liquid chemical hazard",
-    "blocked_walkway":  "walkway egress path clear obstruction housekeeping",
-    "exposed_cable":    "electrical cable cord damage protection wiring",
+    # ── Original classes ────────────────────────────────────────────────────
+    "no_helmet":          "head protection helmet PPE hard hat § 1910.135",
+    "helmet":             "head protection helmet PPE hard hat § 1910.135",
+    "no_vest":            "high visibility vest PPE protective clothing § 1910.132",
+    "safety_vest":        "high visibility vest PPE protective clothing § 1910.132",
+    "wet_floor":          "wet floor slip housekeeping walking surface spill liquid § 1910.22",
+    "blocked_walkway":    "walkway egress path clear obstruction housekeeping § 1910.22 § 1910.37",
+    "exposed_cable":      "electrical cable cord damage protection wiring § 1910.305",
+
+    # ── NEW: Spray / Decoration Area ────────────────────────────────────────
+    "no_glasses":         "eye face protection safety glasses goggles chemical spray § 1910.133",
+    "no_gloves":          "hand protection gloves chemical spray hazardous materials § 1910.138",
+    "no_apron":           "protective clothing apron body protection spray chemical operations § 1910.132",
+
+    # ── NEW: Central Staging Area ───────────────────────────────────────────
+    "no_safety_shoes":    "foot protection safety shoes footwear heavy load § 1910.136",
+
+    # ── NEW: Assembly Area ──────────────────────────────────────────────────
+    "trolley_out_of_lane": "powered industrial truck forklift aisle pedestrian lane marking § 1910.178 § 1910.22",
+    "person_out_of_lane":  "pedestrian walkway aisle marking safe path egress § 1910.22 § 1910.37",
+
+    # ── NEW: General Hallways ───────────────────────────────────────────────
+    "phone_while_walking": "distracted walking mobile phone hallway walking surface attention § 1910.22",
+}
+
+# Area descriptions for prompt context — maps area names to safety focus
+AREA_CONTEXT = {
+    "Spray/Decoration Area":  "a chemical spray and decoration zone requiring eye, hand, and body protection",
+    "Central Staging Area":   "a heavy materials staging zone requiring head and foot protection",
+    "Assembly Area":          "an assembly zone with designated trolley lanes and pedestrian walkways",
+    "General":                "a general hallway and common area with pedestrian safety rules",
 }
 
 logging.basicConfig(level=logging.INFO)
@@ -79,7 +118,7 @@ logger = logging.getLogger(__name__)
 # App + startup
 # ---------------------------------------------------------------------------
 
-app = FastAPI(title="EHSS RAG Service", version="1.0.0")
+app = FastAPI(title="EHSS RAG Service", version="2.0.0")
 
 vectorstore = None
 llm         = None
@@ -106,13 +145,13 @@ async def startup():
     )
     logger.info("Supabase pgvector connected.")
 
-    logger.info("Loading Groq LLM...")
+    logger.info("Loading Groq LLM (llama-3.1-8b-instant)...")
     llm = ChatGroq(
-        model          = "llama-3.1-8b-instant",
-        groq_api_key = GROQ_API_KEY,
-        temperature    = 0.2,
+        model       = "llama-3.1-8b-instant",
+        api_key     = GROQ_API_KEY,
+        temperature = 0.2,
     )
-    logger.info("RAG service ready.")
+    logger.info("RAG service v2.0 ready.")
 
 
 # ---------------------------------------------------------------------------
@@ -140,7 +179,7 @@ def format_context_for_prompt(chunks: list[dict]) -> str:
 
 
 def extract_text_from_response(content) -> str:
-    """Handle both str and list response formats from Gemini."""
+    """Handle both str and list response formats from LLMs."""
     if isinstance(content, str):
         return content.strip()
     if isinstance(content, list):
@@ -159,11 +198,13 @@ class HazardInput(BaseModel):
     label:            str
     confidence_score: float
     ocr_text:         Optional[str] = ""
+    area:             Optional[str] = ""   # NEW: e.g. "Spray/Decoration Area"
+                                           # RF passes this from inspection session
 
 class CorrectiveAction(BaseModel):
     label:              str
     action_description: str
-    # priority and due_date excluded — RF's FastAPI is single source of truth
+    # priority and due_date excluded — RF handles (Opsi 2, single source of truth)
 
 class CorrectiveActionsRequest(BaseModel):
     hazards: list[HazardInput]
@@ -175,12 +216,14 @@ class CorrectiveActionsResponse(BaseModel):
 @app.post("/rag/generate-corrective-actions", response_model=CorrectiveActionsResponse)
 async def generate_corrective_actions(request: CorrectiveActionsRequest):
     """
-    Takes YOLO-detected hazards, retrieves OSHA regulations, generates
-    corrective action descriptions in one batched Gemini call.
+    Receives YOLO-detected hazards, retrieves OSHA regulations,
+    generates area-specific corrective actions via Groq in one batch call.
 
-    wet_floor query is enriched with chemical vocabulary so that OCR text
-    containing chemical-related terms pulls hazcom content in addition to
-    walking surfaces — covering the merged wet_floor/chemical_spill class.
+    New in v2.0:
+    - Accepts optional 'area' field per hazard for area-specific context
+    - 7 new hazard classes supported (glasses, gloves, apron, safety shoes,
+      trolley lane, person lane, phone while walking)
+    - Area context injected into prompt for more specific recommendations
     """
     actionable = [h for h in request.hazards if h.label not in NON_HAZARD_LABELS]
     if not actionable:
@@ -192,8 +235,8 @@ async def generate_corrective_actions(request: CorrectiveActionsRequest):
         base_query = RETRIEVAL_QUERY_MAP.get(
             hazard.label, hazard.label.replace("_", " ")
         )
-        # OCR text enrichment — if image signage mentions "CHEMICAL", "ACID",
-        # "FLAMMABLE" etc., this pulls chemical-relevant chunks for wet_floor
+        # OCR text enriches retrieval — e.g. "CHEMICAL STORAGE" on a sign
+        # helps pull hazcom content for wet_floor detections near chemicals
         if hazard.ocr_text and hazard.ocr_text.strip():
             base_query += f" {hazard.ocr_text.strip()}"
         hazard_contexts[hazard.label] = retrieve_context(base_query, k=RETRIEVAL_K)
@@ -201,18 +244,28 @@ async def generate_corrective_actions(request: CorrectiveActionsRequest):
     # Build ONE batch prompt for all hazards
     hazard_blocks = []
     for hazard in actionable:
-        context  = format_context_for_prompt(hazard_contexts[hazard.label])
+        context = format_context_for_prompt(hazard_contexts[hazard.label])
+
+        # Area context injection — makes corrective actions specific to the zone
+        area_note = ""
+        if hazard.area and hazard.area.strip():
+            area_desc = AREA_CONTEXT.get(hazard.area.strip(), hazard.area.strip())
+            area_note = f"\nInspection area: {hazard.area} ({area_desc})"
+
         ocr_note = (
-            f"\nOCR text from image: \"{hazard.ocr_text}\""
+            f"\nOCR text from image signage: \"{hazard.ocr_text}\""
             if hazard.ocr_text and hazard.ocr_text.strip() else ""
         )
+
         hazard_blocks.append(
-            f"HAZARD: {hazard.label} (confidence: {hazard.confidence_score:.0%}){ocr_note}\n"
+            f"HAZARD: {hazard.label} (confidence: {hazard.confidence_score:.0%})"
+            f"{area_note}{ocr_note}\n"
             f"Relevant OSHA regulations:\n{context}"
         )
 
-    prompt = f"""You are a workplace safety expert. For each detected hazard below,
-generate a specific corrective action grounded in the provided OSHA regulations.
+    prompt = f"""You are a workplace safety expert for a Mattel manufacturing facility.
+For each detected hazard below, generate a specific corrective action grounded in
+the provided OSHA regulations. Tailor the action to the inspection area when specified.
 
 {chr(10).join(f'---{chr(10)}{block}' for block in hazard_blocks)}
 
@@ -222,7 +275,7 @@ Format:
 [
   {{
     "label": "<exact label from input>",
-    "action_description": "<specific corrective action, cite the OSHA section number>"
+    "action_description": "<specific corrective action citing the OSHA section number, mention the area if provided>"
   }}
 ]"""
 
@@ -245,7 +298,8 @@ Format:
         CorrectiveAction(
             label              = hazard.label,
             action_description = description_map.get(
-                hazard.label, "Follow OSHA general safety standards."
+                hazard.label,
+                "Follow applicable OSHA general safety standards for this hazard type."
             ),
         )
         for hazard in actionable
@@ -258,6 +312,7 @@ Format:
 
 class ChatRequest(BaseModel):
     question: str
+    area:     Optional[str] = ""   # optional: filter context to specific area
 
 class ChatSource(BaseModel):
     section:  str
@@ -273,7 +328,9 @@ class ChatResponse(BaseModel):
 async def chat(request: ChatRequest):
     """
     Answers free-text safety questions grounded in OSHA documents.
-    Backend for the EHSS AI Assistant panel in RF's frontend UI.
+    Backend for the EHSS AI Assistant panel in RF's frontend.
+
+    New in v2.0: optional 'area' field to provide area context in the answer.
     """
     if not request.question.strip():
         raise HTTPException(status_code=400, detail="Question cannot be empty")
@@ -289,9 +346,14 @@ async def chat(request: ChatRequest):
 
     context = format_context_for_prompt(chunks)
 
+    area_context = ""
+    if request.area and request.area.strip():
+        area_desc    = AREA_CONTEXT.get(request.area.strip(), request.area.strip())
+        area_context = f"\nThe inspector is asking about the {request.area} ({area_desc})."
+
     prompt = f"""You are an EHSS (Environmental Health, Safety, and Sustainability)
-expert assistant for Mattel manufacturing facilities. Answer the inspector's question
-using ONLY the provided OSHA regulation excerpts below.
+expert assistant for Mattel manufacturing facilities.{area_context}
+Answer the inspector's question using ONLY the provided OSHA regulation excerpts below.
 
 If the answer is not covered by the excerpts, say so clearly rather than guessing.
 Always cite the specific OSHA section number (e.g. § 1910.132) when making a claim.
@@ -317,7 +379,7 @@ Answer:"""
             ChatSource(
                 section  = c["section"],
                 category = c["category"],
-                excerpt  = c["content"][:200] + "..." if len(c["content"]) > 200 else c["content"],
+                excerpt  = c["content"][:400] + "..." if len(c["content"]) > 400 else c["content"],
             )
             for c in chunks
         ],
@@ -357,8 +419,14 @@ async def health():
     except Exception:
         connected = False
     return {
-        "status":           "ok" if connected else "degraded",
-        "supabase":         "connected" if connected else "error",
-        "embedding_model":  "BAAI/bge-small-en-v1.5 (local)",
-        "llm_model":        "gemini-3.5-flash",
+        "status":          "ok" if connected else "degraded",
+        "supabase":        "connected" if connected else "error",
+        "embedding_model": "BAAI/bge-small-en-v1.5 (local)",
+        "llm_model":       "groq/llama-3.1-8b-instant",
+        "version":         "2.0.0",
+        "new_classes":     [
+            "no_glasses", "no_gloves", "no_apron",
+            "no_safety_shoes", "trolley_out_of_lane",
+            "person_out_of_lane", "phone_while_walking"
+        ],
     }
