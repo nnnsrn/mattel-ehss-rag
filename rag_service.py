@@ -353,8 +353,12 @@ async def chat(request: ChatRequest):
 
     prompt = f"""You are an EHSS (Environmental Health, Safety, and Sustainability)
 expert assistant for Mattel manufacturing facilities.{area_context}
-Answer the inspector's question using ONLY the provided OSHA regulation excerpts below.
 
+Language instruction: Detect the language of the inspector's question automatically.
+If the question is in Indonesian (Bahasa Indonesia), respond entirely in Indonesian.
+If the question is in English, respond in English.
+
+Answer the inspector's question using ONLY the provided OSHA regulation excerpts below.
 If the answer is not covered by the excerpts, say so clearly rather than guessing.
 Always cite the specific OSHA section number (e.g. § 1910.132) when making a claim.
 Keep the answer concise and practical — inspectors need actionable information.
